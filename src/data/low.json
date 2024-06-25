@@ -1,0 +1,3087 @@
+[
+  {
+    "compat_features": [
+      "api.AbortSignal.any_static"
+    ],
+    "description": "The AbortSignal.any() static method combines an iterable of abort signals into a single signal, with the abort reason taken from the first signal to abort.",
+    "description_html": "The <code>AbortSignal.any()</code> static method combines an iterable of abort signals into a single signal, with the abort reason taken from the first signal to abort.",
+    "name": "AbortSignal.any()",
+    "spec": "https://dom.spec.whatwg.org/#dom-abortsignal-any",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-03-19",
+      "support": {
+        "chrome": "116",
+        "chrome_android": "116",
+        "edge": "116",
+        "firefox": "124",
+        "firefox_android": "124",
+        "safari": "17.4",
+        "safari_ios": "17.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.properties.accent-color",
+      "css.properties.accent-color.auto"
+    ],
+    "description": "The accent-color CSS property sets a color for checkboxes, radio buttons, and other form controls.",
+    "description_html": "The <code>accent-color</code> CSS property sets a color for checkboxes, radio buttons, and other form controls.",
+    "name": "accent-color",
+    "spec": "https://drafts.csswg.org/css-ui-4/#widget-accent",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "93",
+        "chrome_android": "93",
+        "edge": "93",
+        "firefox": "92",
+        "firefox_android": "92",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/695"
+  },
+  {
+    "compat_features": [
+      "css.properties.animation-composition"
+    ],
+    "description": "The animation-composition CSS property chooses how to combine animations that affect the same property.",
+    "description_html": "The <code>animation-composition</code> CSS property chooses how to combine animations that affect the same property.",
+    "name": "animation-composition",
+    "spec": "https://drafts.csswg.org/css-animations-2/#animation-composition",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-07-04",
+      "support": {
+        "chrome": "112",
+        "chrome_android": "112",
+        "edge": "112",
+        "firefox": "115",
+        "firefox_android": "115",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/743"
+  },
+  {
+    "compat_features": [
+      "css.properties.appearance",
+      "css.properties.appearance.auto",
+      "css.properties.appearance.button",
+      "css.properties.appearance.checkbox",
+      "css.properties.appearance.listbox",
+      "css.properties.appearance.menulist",
+      "css.properties.appearance.menulist-button",
+      "css.properties.appearance.meter",
+      "css.properties.appearance.none",
+      "css.properties.appearance.progress-bar",
+      "css.properties.appearance.radio",
+      "css.properties.appearance.searchfield",
+      "css.properties.appearance.textarea",
+      "css.properties.appearance.textfield"
+    ],
+    "description": "The appearance CSS property controls the appearance of form controls. Using appearance: none disables any default native appearance and allows the elements to be styled with CSS.",
+    "description_html": "The <code>appearance</code> CSS property controls the appearance of form controls. Using <code>appearance: none</code> disables any default native appearance and allows the elements to be styled with CSS.",
+    "name": "appearance",
+    "spec": "https://drafts.csswg.org/css-ui-4/#appearance-switching",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "84",
+        "chrome_android": "84",
+        "edge": "84",
+        "firefox": "80",
+        "firefox_android": "80",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/658"
+  },
+  {
+    "compat_features": [
+      "api.Element.ariaAtomic",
+      "api.Element.ariaAutoComplete",
+      "api.Element.ariaBusy",
+      "api.Element.ariaChecked",
+      "api.Element.ariaColCount",
+      "api.Element.ariaColIndex",
+      "api.Element.ariaColSpan",
+      "api.Element.ariaCurrent",
+      "api.Element.ariaDisabled",
+      "api.Element.ariaExpanded",
+      "api.Element.ariaHasPopup",
+      "api.Element.ariaHidden",
+      "api.Element.ariaInvalid",
+      "api.Element.ariaKeyShortcuts",
+      "api.Element.ariaLabel",
+      "api.Element.ariaLevel",
+      "api.Element.ariaLive",
+      "api.Element.ariaModal",
+      "api.Element.ariaMultiLine",
+      "api.Element.ariaMultiSelectable",
+      "api.Element.ariaOrientation",
+      "api.Element.ariaPlaceholder",
+      "api.Element.ariaPosInSet",
+      "api.Element.ariaPressed",
+      "api.Element.ariaReadOnly",
+      "api.Element.ariaRelevant",
+      "api.Element.ariaRequired",
+      "api.Element.ariaRoleDescription",
+      "api.Element.ariaRowCount",
+      "api.Element.ariaRowIndex",
+      "api.Element.ariaRowSpan",
+      "api.Element.ariaSelected",
+      "api.Element.ariaSetSize",
+      "api.Element.ariaSort",
+      "api.Element.ariaValueMax",
+      "api.Element.ariaValueMin",
+      "api.Element.ariaValueNow",
+      "api.Element.ariaValueText",
+      "api.Element.role"
+    ],
+    "description": "WAI-ARIA attributes have corresponding properties on Element and ElementInternals objects.",
+    "description_html": "WAI-ARIA attributes have corresponding properties on <code>Element</code> and <code>ElementInternals</code> objects.",
+    "name": "ARIA attribute reflection",
+    "spec": "https://w3c.github.io/aria/#accessibilityroleandproperties-correspondence",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-10-24",
+      "support": {
+        "chrome": "103",
+        "chrome_android": "103",
+        "edge": "103",
+        "firefox": "119",
+        "firefox_android": "119",
+        "safari": "12.1",
+        "safari_ios": "12.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.at",
+      "javascript.builtins.TypedArray.at"
+    ],
+    "description": "The at() method of arrays and typed arrays returns the item at an index, including negative indices for getting items relative to the end of an array. Also known as the relative indexing method.",
+    "description_html": "The <code>at()</code> method of arrays and typed arrays returns the item at an index, including negative indices for getting items relative to the end of an array. Also known as the relative indexing method.",
+    "name": "Array at()",
+    "spec": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.at",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "92",
+        "chrome_android": "92",
+        "edge": "92",
+        "firefox": "90",
+        "firefox_android": "90",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.toReversed",
+      "javascript.builtins.Array.toSorted",
+      "javascript.builtins.Array.toSpliced",
+      "javascript.builtins.Array.with",
+      "javascript.builtins.TypedArray.toReversed",
+      "javascript.builtins.TypedArray.toSorted",
+      "javascript.builtins.TypedArray.with"
+    ],
+    "description": "The toReversed(), toSorted(), toSpliced(), and with() methods of arrays and typed arrays return changed copies of arrays. They stand in contrast to methods such as sort() or reverse() that change arrays in place.",
+    "description_html": "The <code>toReversed()</code>, <code>toSorted()</code>, <code>toSpliced()</code>, and <code>with()</code> methods of arrays and typed arrays return changed copies of arrays. They stand in contrast to methods such as <code>sort()</code> or <code>reverse()</code> that change arrays in place.",
+    "name": "Array by copy",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.toreversed",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tosorted",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tospliced",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.with",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.toreversed",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.tosorted",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.with"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-07-04",
+      "support": {
+        "chrome": "110",
+        "chrome_android": "110",
+        "edge": "110",
+        "firefox": "115",
+        "firefox_android": "115",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.findLast",
+      "javascript.builtins.Array.findLastIndex",
+      "javascript.builtins.TypedArray.findLast",
+      "javascript.builtins.TypedArray.findLastIndex"
+    ],
+    "description": "The findLast() and findLastIndex() methods of arrays and typed arrays search an array in reverse order for the first item that satisfies a test function.",
+    "description_html": "The <code>findLast()</code> and <code>findLastIndex()</code> methods of arrays and typed arrays search an array in reverse order for the first item that satisfies a test function.",
+    "name": "Array findLast() and findLastIndex()",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.findlast",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.findlastindex",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.findlast",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.findlastindex"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-08-23",
+      "support": {
+        "chrome": "97",
+        "chrome_android": "97",
+        "edge": "97",
+        "firefox": "104",
+        "firefox_android": "104",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.fromAsync"
+    ],
+    "description": "The Array.fromAsync() static method copies items from an async iterable object to make a new array.",
+    "description_html": "The <code>Array.fromAsync()</code> static method copies items from an async iterable object to make a new array.",
+    "name": "Array.fromAsync()",
+    "spec": "https://tc39.es/proposal-array-from-async/#sec-array.fromAsync",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-01-25",
+      "support": {
+        "chrome": "121",
+        "chrome_android": "121",
+        "edge": "121",
+        "firefox": "115",
+        "firefox_android": "115",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Map.groupBy",
+      "javascript.builtins.Object.groupBy"
+    ],
+    "description": "The Object.groupBy() and Map.groupBy() static methods group values of arrays and iterables based on a function that returns a key for each value.",
+    "description_html": "The <code>Object.groupBy()</code> and <code>Map.groupBy()</code> static methods group values of arrays and iterables based on a function that returns a key for each value.",
+    "name": "Array grouping",
+    "spec": "https://tc39.es/proposal-array-grouping/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-03-05",
+      "support": {
+        "chrome": "117",
+        "chrome_android": "117",
+        "edge": "117",
+        "firefox": "119",
+        "firefox_android": "119",
+        "safari": "17.4",
+        "safari_ios": "17.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.selectors.autofill"
+    ],
+    "description": "The :autofill pseudo-class matches <input> elements that have been filled in automatically by the browser.",
+    "description_html": "The <code>:autofill</code> pseudo-class matches <code>&#x3C;input></code> elements that have been filled in automatically by the browser.",
+    "name": ":autofill",
+    "spec": "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-autofill",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-02-09",
+      "support": {
+        "chrome": "110",
+        "chrome_android": "110",
+        "edge": "110",
+        "firefox": "86",
+        "firefox_android": "86",
+        "safari": "15",
+        "safari_ios": "15"
+      }
+    }
+  },
+  {
+    "caniuse": "avif",
+    "description": "AVIF (AV1 Image File Format) is an image format based on the AV1 video format.",
+    "description_html": "AVIF (AV1 Image File Format) is an image format based on the AV1 video format.",
+    "name": "AVIF",
+    "spec": "https://aomediacodec.github.io/av1-avif/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-01-26",
+      "support": {
+        "chrome": "85",
+        "chrome_android": "85",
+        "edge": "121",
+        "firefox": "93",
+        "firefox_android": "93",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/3798"
+  },
+  {
+    "compat_features": [
+      "css.properties.background-clip.text"
+    ],
+    "description": "The background-clip: text CSS declaration draws the background underneath only the text in the element.",
+    "description_html": "The <code>background-clip: text</code> CSS declaration draws the background underneath only the text in the element.",
+    "name": "background-clip: text",
+    "spec": "https://drafts.csswg.org/css-backgrounds-4/#background-clip",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-07",
+      "support": {
+        "chrome": "120",
+        "chrome_android": "120",
+        "edge": "120",
+        "firefox": "49",
+        "firefox_android": "49",
+        "safari": "14",
+        "safari_ios": "14"
+      }
+    }
+  },
+  {
+    "caniuse": "broadcastchannel",
+    "compat_features": [
+      "api.BroadcastChannel",
+      "api.BroadcastChannel.BroadcastChannel",
+      "api.BroadcastChannel.close",
+      "api.BroadcastChannel.message_event",
+      "api.BroadcastChannel.messageerror_event",
+      "api.BroadcastChannel.name",
+      "api.BroadcastChannel.postMessage"
+    ],
+    "description": "The BroadcastChannel API allows you to send messages between same-origin browsing contexts, such as between the same page loaded in multiple tabs.",
+    "description_html": "The <code>BroadcastChannel</code> API allows you to send messages between same-origin browsing contexts, such as between the same page loaded in multiple tabs.",
+    "name": "BroadcastChannel",
+    "spec": "https://html.spec.whatwg.org/multipage/web-messaging.html#broadcasting-to-other-browsing-contexts",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "60",
+        "chrome_android": "60",
+        "edge": "79",
+        "firefox": "57",
+        "firefox_android": "57",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/1447"
+  },
+  {
+    "compat_features": [
+      "css.types.calc-constant",
+      "css.types.calc-constant.NaN",
+      "css.types.calc-constant.e",
+      "css.types.calc-constant.infinity",
+      "css.types.calc-constant.pi"
+    ],
+    "description": "The e, pi, infinity, and NaN constants are accepted in CSS math functions such as calc().",
+    "description_html": "The <code>e</code>, <code>pi</code>, <code>infinity</code>, and <code>NaN</code> constants are accepted in CSS math functions such as <code>calc()</code>.",
+    "name": "calc() constants",
+    "spec": "https://drafts.csswg.org/css-values-4/#calc-keywords",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-06-06",
+      "support": {
+        "chrome": "110",
+        "chrome_android": "110",
+        "edge": "110",
+        "firefox": "114",
+        "firefox_android": "114",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.CanvasRenderingContext2D.createConicGradient",
+      "api.OffscreenCanvasRenderingContext2D.createConicGradient"
+    ],
+    "description": "The createConicGradient() methods draw a conic gradient to a 2D canvas.",
+    "description_html": "The <code>createConicGradient()</code> methods draw a conic gradient to a 2D canvas.",
+    "name": "Canvas createConicGradient()",
+    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-createconicgradient-dev",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-04-11",
+      "support": {
+        "chrome": "99",
+        "chrome_android": "99",
+        "edge": "99",
+        "firefox": "112",
+        "firefox_android": "112",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.CanvasRenderingContext2D.reset",
+      "api.OffscreenCanvasRenderingContext2D.reset"
+    ],
+    "description": "The reset() method clears a canvas to its initial state.",
+    "description_html": "The <code>reset()</code> method clears a canvas to its initial state.",
+    "name": "Canvas reset()",
+    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-reset",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-11",
+      "support": {
+        "chrome": "99",
+        "chrome_android": "99",
+        "edge": "99",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "17.2",
+        "safari_ios": "17.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.CanvasRenderingContext2D.roundRect",
+      "api.OffscreenCanvasRenderingContext2D.roundRect"
+    ],
+    "description": "The roundRect() methods draw a rounded rectangle to a 2D canvas.",
+    "description_html": "The <code>roundRect()</code> methods draw a rounded rectangle to a 2D canvas.",
+    "name": "Canvas roundRect()",
+    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#dom-context-2d-roundrect",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-04-11",
+      "support": {
+        "chrome": "99",
+        "chrome_android": "99",
+        "edge": "99",
+        "firefox": "112",
+        "firefox_android": "112",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.TextMetrics.alphabeticBaseline",
+      "api.TextMetrics.hangingBaseline",
+      "api.TextMetrics.ideographicBaseline"
+    ],
+    "description": "The alphabeticBaseline, hangingBaseline, and ideographicBaseline canvas text metrics measure the distance from the used textBaseline to the respective typographic baseline.",
+    "description_html": "The <code>alphabeticBaseline</code>, <code>hangingBaseline</code>, and <code>ideographicBaseline</code> canvas text metrics measure the distance from the used <code>textBaseline</code> to the respective typographic baseline.",
+    "name": "Canvas text baselines",
+    "spec": [
+      "https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-alphabeticbaseline-dev",
+      "https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-hangingbaseline-dev",
+      "https://html.spec.whatwg.org/multipage/canvas.html#dom-textmetrics-ideographicbaseline-dev"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-10-13",
+      "support": {
+        "chrome": "118",
+        "chrome_android": "118",
+        "edge": "118",
+        "firefox": "116",
+        "firefox_android": "116",
+        "safari": "11.1",
+        "safari_ios": "11.3"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.length.cap"
+    ],
+    "description": "The CSS cap unit corresponds to the height of Latin capital letters.",
+    "description_html": "The CSS <code>cap</code> unit corresponds to the height of Latin capital letters.",
+    "name": "cap unit",
+    "spec": "https://drafts.csswg.org/css-values-4/#cap",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-11",
+      "support": {
+        "chrome": "117",
+        "chrome_android": "117",
+        "edge": "117",
+        "firefox": "97",
+        "firefox_android": "97",
+        "safari": "17.2",
+        "safari_ios": "17.2"
+      }
+    }
+  },
+  {
+    "caniuse": "css-cascade-layers",
+    "compat_features": [
+      "api.CSSImportRule.layerName",
+      "api.CSSLayerBlockRule",
+      "api.CSSLayerBlockRule.name",
+      "api.CSSLayerStatementRule",
+      "api.CSSLayerStatementRule.nameList",
+      "css.at-rules.import.layer",
+      "css.at-rules.layer"
+    ],
+    "description": "The @layer CSS at-rule avoids specificity conflicts by providing priority levels for different groups of CSS rules, such as low-priority styles like resets, and high-priority styles like UI components.",
+    "description_html": "The <code>@layer</code> CSS at-rule avoids specificity conflicts by providing priority levels for different groups of CSS rules, such as low-priority styles like resets, and high-priority styles like UI components.",
+    "name": "Cascade layers",
+    "spec": "https://drafts.csswg.org/css-cascade-5/#layering",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "99",
+        "chrome_android": "99",
+        "edge": "99",
+        "firefox": "97",
+        "firefox_android": "97",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/4007"
+  },
+  {
+    "compat_features": [
+      "api.Element.checkVisibility"
+    ],
+    "description": "The checkVisibility() method checks if an element is potentially visible, with optional parameters for the kinds of visibility to check. For example, it checks whether the element has the style display: none, but can also check for visibility: hidden.",
+    "description_html": "The <code>checkVisibility()</code> method checks if an element is potentially visible, with optional parameters for the kinds of visibility to check. For example, it checks whether the element has the style <code>display: none</code>, but can also check for <code>visibility: hidden</code>.",
+    "name": "checkVisibility()",
+    "spec": "https://drafts.csswg.org/cssom-view-1/#dom-element-checkvisibility",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-03-05",
+      "support": {
+        "chrome": "105",
+        "chrome_android": "105",
+        "edge": "105",
+        "firefox": "106",
+        "firefox_android": "106",
+        "safari": "17.4",
+        "safari_ios": "17.4"
+      }
+    }
+  },
+  {
+    "caniuse": "css-color-function",
+    "compat_features": [
+      "css.types.color.color",
+      "css.types.color.color.mixed_type_parameters"
+    ],
+    "description": "The color() function defines a color within a given color space. Wide gamut color spaces like display-p3 allow showing more vibrant and saturated colors than the standard srgb color space.",
+    "description_html": "The <code>color()</code> function defines a color within a given color space. Wide gamut color spaces like <code>display-p3</code> allow showing more vibrant and saturated colors than the standard <code>srgb</code> color space.",
+    "name": "color()",
+    "spec": "https://drafts.csswg.org/css-color-4/#color-function",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-05-09",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "15",
+        "safari_ios": "15"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.color.color-mix"
+    ],
+    "description": "The color-mix() function mixes two colors in a given color space and by a given amount. Commonly, lighter or darker variations of a color are created by mixing with white or black.",
+    "description_html": "The <code>color-mix()</code> function mixes two colors in a given color space and by a given amount. Commonly, lighter or darker variations of a color are created by mixing with white or black.",
+    "name": "color-mix()",
+    "spec": "https://drafts.csswg.org/css-color-5/#color-mix",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-05-09",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "16.2",
+        "safari_ios": "16.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.properties.color-scheme",
+      "css.properties.color-scheme.only_dark",
+      "css.properties.color-scheme.only_light"
+    ],
+    "description": "The color-scheme CSS property sets which color schemes (light or dark) an element uses and may prevent automatic dark mode adjustments by the browser.",
+    "description_html": "The <code>color-scheme</code> CSS property sets which color schemes (light or dark) an element uses and may prevent automatic dark mode adjustments by the browser.",
+    "name": "color-scheme",
+    "spec": "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-02-03",
+      "support": {
+        "chrome": "98",
+        "chrome_android": "98",
+        "edge": "98",
+        "firefox": "96",
+        "firefox_android": "96",
+        "safari": "13",
+        "safari_ios": "13"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/637"
+  },
+  {
+    "compat_features": [
+      "api.CompressionStream",
+      "api.CompressionStream.CompressionStream",
+      "api.CompressionStream.CompressionStream.deflate",
+      "api.CompressionStream.CompressionStream.gzip",
+      "api.CompressionStream.readable",
+      "api.CompressionStream.writable",
+      "api.DecompressionStream",
+      "api.DecompressionStream.DecompressionStream",
+      "api.DecompressionStream.DecompressionStream.deflate",
+      "api.DecompressionStream.DecompressionStream.gzip",
+      "api.DecompressionStream.readable",
+      "api.DecompressionStream.writable"
+    ],
+    "description": "The CompressionStream and DecompressionStream interfaces compress and decompress data using the gzip or deflate formats.",
+    "description_html": "The <code>CompressionStream</code> and <code>DecompressionStream</code> interfaces compress and decompress data using the gzip or deflate formats.",
+    "name": "Compression streams",
+    "spec": "https://wicg.github.io/compression/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-05-09",
+      "support": {
+        "chrome": "80",
+        "chrome_android": "80",
+        "edge": "80",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": [
+      "https://chromestatus.com/metrics/feature/timeline/popularity/3060",
+      "https://chromestatus.com/metrics/feature/timeline/popularity/3061"
+    ]
+  },
+  {
+    "compat_features": [
+      "api.CSSStyleSheet.CSSStyleSheet",
+      "api.CSSStyleSheet.replace",
+      "api.CSSStyleSheet.replaceSync",
+      "api.Document.adoptedStyleSheets",
+      "api.ShadowRoot.adoptedStyleSheets"
+    ],
+    "description": "The CSSStyleSheet constructor creates a new stylesheet which can be shared between a document and multiple shadow roots using adoptedStyleSheets.",
+    "description_html": "The <code>CSSStyleSheet</code> constructor creates a new stylesheet which can be shared between a document and multiple shadow roots using <code>adoptedStyleSheets</code>.",
+    "name": "Constructed stylesheets",
+    "spec": [
+      "https://drafts.csswg.org/cssom-1/#dom-cssstylesheet-cssstylesheet",
+      "https://drafts.csswg.org/cssom-1/#dom-documentorshadowroot-adoptedstylesheets"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "73",
+        "chrome_android": "73",
+        "edge": "79",
+        "firefox": "101",
+        "firefox_android": "101",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2846"
+  },
+  {
+    "compat_features": [
+      "css.properties.contain-intrinsic-block-size",
+      "css.properties.contain-intrinsic-height",
+      "css.properties.contain-intrinsic-inline-size",
+      "css.properties.contain-intrinsic-size",
+      "css.properties.contain-intrinsic-width"
+    ],
+    "description": "The contain-intrinsic-size CSS property sets the intrinsic size of an element. When using size containment, the browser will layout the element as if it had a single child of this size.",
+    "description_html": "The <code>contain-intrinsic-size</code> CSS property sets the intrinsic size of an element. When using size containment, the browser will layout the element as if it had a single child of this size.",
+    "name": "contain-intrinsic-size",
+    "spec": "https://drafts.csswg.org/css-sizing-4/#intrinsic-size-override",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-09-18",
+      "support": {
+        "chrome": "95",
+        "chrome_android": "95",
+        "edge": "95",
+        "firefox": "107",
+        "firefox_android": "107",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/651"
+  },
+  {
+    "caniuse": "css-container-queries",
+    "compat_features": [
+      "api.CSSContainerRule",
+      "css.at-rules.container",
+      "css.properties.contain",
+      "css.properties.contain.inline-size",
+      "css.properties.contain.style",
+      "css.properties.container",
+      "css.properties.container-name",
+      "css.properties.container-name.none",
+      "css.properties.container-type",
+      "css.properties.container-type.inline-size",
+      "css.properties.container-type.normal",
+      "css.properties.container-type.size",
+      "css.types.length.container_query_length_units"
+    ],
+    "description": "Container size queries with the @container at-rule apply styles to an element based on the dimensions of its container.",
+    "description_html": "Container size queries with the <code>@container</code> at-rule apply styles to an element based on the dimensions of its container.",
+    "name": "Container queries",
+    "spec": "https://drafts.csswg.org/css-contain-3/#container-queries",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-02-14",
+      "support": {
+        "chrome": "105",
+        "chrome_android": "105",
+        "edge": "105",
+        "firefox": "110",
+        "firefox_android": "110",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/4165"
+  },
+  {
+    "compat_features": [
+      "css.properties.counter-set",
+      "css.properties.counter-set.list-item",
+      "css.properties.counter-set.none"
+    ],
+    "description": "The counter-set CSS property creates (and optionally sets a value for) a counter, the numbers for a series of headings or ordered list items.",
+    "description_html": "The <code>counter-set</code> CSS property creates (and optionally sets a value for) a counter, the numbers for a series of headings or ordered list items.",
+    "name": "counter-set",
+    "spec": "https://drafts.csswg.org/css-lists-3/#propdef-counter-set",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-11",
+      "support": {
+        "chrome": "85",
+        "chrome_android": "85",
+        "edge": "85",
+        "firefox": "68",
+        "firefox_android": "68",
+        "safari": "17.2",
+        "safari_ios": "17.2"
+      }
+    }
+  },
+  {
+    "caniuse": "css-at-counter-style",
+    "compat_features": [
+      "css.at-rules.counter-style",
+      "css.at-rules.counter-style.additive-symbols",
+      "css.at-rules.counter-style.fallback",
+      "css.at-rules.counter-style.negative",
+      "css.at-rules.counter-style.pad",
+      "css.at-rules.counter-style.prefix",
+      "css.at-rules.counter-style.range",
+      "css.at-rules.counter-style.suffix",
+      "css.at-rules.counter-style.system",
+      "api.CSSCounterStyleRule",
+      "api.CSSCounterStyleRule.additiveSymbols",
+      "api.CSSCounterStyleRule.fallback",
+      "api.CSSCounterStyleRule.name",
+      "api.CSSCounterStyleRule.negative",
+      "api.CSSCounterStyleRule.pad",
+      "api.CSSCounterStyleRule.prefix",
+      "api.CSSCounterStyleRule.range",
+      "api.CSSCounterStyleRule.system",
+      "api.CSSCounterStyleRule.suffix"
+    ],
+    "description": "The @counter-style CSS at-rule defines custom counter styles for list items. For example, you can use a sequence of specific symbols instead of numbers for an ordered list.",
+    "description_html": "The <code>@counter-style</code> CSS at-rule defines custom counter styles for list items. For example, you can use a sequence of specific symbols instead of numbers for an ordered list.",
+    "name": "@counter-style",
+    "spec": "https://drafts.csswg.org/css-counter-styles-3/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-09-18",
+      "support": {
+        "chrome": "91",
+        "chrome_android": "91",
+        "edge": "91",
+        "firefox": "33",
+        "firefox_android": "33",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/3809"
+  },
+  {
+    "caniuse": "declarative-shadow-dom",
+    "compat_features": [
+      "api.HTMLTemplateElement.shadowRootMode",
+      "html.elements.template.shadowrootmode"
+    ],
+    "description": "The shadowrootmode attribute on <template> creates a shadow root without the use of JavaScript. It is a declarative alternative to the attachShadow() method.",
+    "description_html": "The <code>shadowrootmode</code> attribute on <code>&#x3C;template></code> creates a shadow root without the use of JavaScript. It is a declarative alternative to the <code>attachShadow()</code> method.",
+    "name": "Declarative shadow DOM",
+    "spec": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootmode",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-02-20",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "123",
+        "firefox_android": "123",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/4421"
+  },
+  {
+    "caniuse": "deviceorientation",
+    "compat_features": [
+      "api.DeviceMotionEvent",
+      "api.DeviceMotionEvent.acceleration",
+      "api.DeviceMotionEvent.accelerationIncludingGravity",
+      "api.DeviceMotionEvent.interval",
+      "api.DeviceMotionEvent.rotationRate",
+      "api.DeviceOrientationEvent",
+      "api.DeviceOrientationEvent.alpha",
+      "api.DeviceOrientationEvent.beta",
+      "api.DeviceOrientationEvent.gamma",
+      "api.Window.devicemotion_event",
+      "api.Window.deviceorientation_event"
+    ],
+    "description": "The DeviceMotion and DeviceOrientation events report the movement and orientation of the browser's device in physical space.",
+    "description_html": "The <code>DeviceMotion</code> and <code>DeviceOrientation</code> events report the movement and orientation of the browser's device in physical space.",
+    "name": "Device orientation events",
+    "spec": "https://w3c.github.io/deviceorientation/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-09-18",
+      "support": {
+        "chrome": "31",
+        "chrome_android": "31",
+        "edge": "12",
+        "firefox": "6",
+        "firefox_android": "6",
+        "safari": "17",
+        "safari_ios": "4.2"
+      }
+    }
+  },
+  {
+    "caniuse": "dialog",
+    "compat_features": [
+      "api.HTMLDialogElement",
+      "api.HTMLDialogElement.cancel_event",
+      "api.HTMLDialogElement.close",
+      "api.HTMLDialogElement.close_event",
+      "api.HTMLDialogElement.open",
+      "api.HTMLDialogElement.returnValue",
+      "api.HTMLDialogElement.show",
+      "api.HTMLDialogElement.showModal",
+      "css.selectors.backdrop.dialog",
+      "html.elements.dialog",
+      "html.elements.dialog.open"
+    ],
+    "description": "The <dialog> HTML element represents a modal or non-modal dialog box, such as a confirmation prompt or a subwindow used to enter data.",
+    "description_html": "The <code>&#x3C;dialog></code> HTML element represents a modal or non-modal dialog box, such as a confirmation prompt or a subwindow used to enter data.",
+    "name": "<dialog>",
+    "spec": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "37",
+        "chrome_android": "37",
+        "edge": "79",
+        "firefox": "98",
+        "firefox_android": "98",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/481"
+  },
+  {
+    "caniuse": "css-dir-pseudo",
+    "compat_features": [
+      "css.selectors.dir"
+    ],
+    "description": "The :dir() CSS functional pseudo-class matches elements by text direction, either right to left (rtl) or left to right (ltr).",
+    "description_html": "The <code>:dir()</code> CSS functional pseudo-class matches elements by text direction, either right to left (<code>rtl</code>) or left to right (<code>ltr</code>).",
+    "name": ":dir()",
+    "spec": "https://drafts.csswg.org/selectors-4/#the-dir-pseudo",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-07",
+      "support": {
+        "chrome": "120",
+        "chrome_android": "120",
+        "edge": "120",
+        "firefox": "49",
+        "firefox_android": "49",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/3741"
+  },
+  {
+    "compat_features": [
+      "api.HTMLInputElement.dirName",
+      "api.HTMLTextAreaElement.dirName",
+      "html.elements.input.dirname",
+      "html.elements.textarea.dirname"
+    ],
+    "description": "The dirname attribute of <textarea> and <input> HTML elements includes the field's writing direction as form data on submission.",
+    "description_html": "The <code>dirname</code> attribute of <code>&#x3C;textarea></code> and <code>&#x3C;input></code> HTML elements includes the field's writing direction as form data on submission.",
+    "name": "dirname",
+    "spec": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-dirname",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-08-01",
+      "support": {
+        "chrome": "17",
+        "chrome_android": "18",
+        "edge": "79",
+        "firefox": "116",
+        "firefox_android": "116",
+        "safari": "6",
+        "safari_ios": "6"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.exp",
+      "css.types.hypot",
+      "css.types.log",
+      "css.types.pow",
+      "css.types.sqrt"
+    ],
+    "description": "The pow(), sqrt(), hypot(), log(), and exp() CSS functions compute various exponential functions.",
+    "description_html": "The <code>pow()</code>, <code>sqrt()</code>, <code>hypot()</code>, <code>log()</code>, and <code>exp()</code> CSS functions compute various exponential functions.",
+    "name": "pow(), sqrt(), hypot(), log(), and exp()",
+    "spec": "https://drafts.csswg.org/css-values-4/#exponent-funcs",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-07",
+      "support": {
+        "chrome": "120",
+        "chrome_android": "120",
+        "edge": "120",
+        "firefox": "118",
+        "firefox_android": "118",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "http.headers.Sec-Fetch-Dest",
+      "http.headers.Sec-Fetch-Mode",
+      "http.headers.Sec-Fetch-Site",
+      "http.headers.Sec-Fetch-User"
+    ],
+    "description": "The Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site, and Sec-Fetch-User` HTTP headers provide extra information about the way a request was made, to help servers reject certain kinds of malicious requests.",
+    "description_html": "The <code>Sec-Fetch-Dest</code>, <code>Sec-Fetch-Mode, </code>Sec-Fetch-Site<code>, and </code>Sec-Fetch-User` HTTP headers provide extra information about the way a request was made, to help servers reject certain kinds of malicious requests.",
+    "name": "Fetch metadata request headers",
+    "spec": "https://w3c.github.io/webappsec-fetch-metadata/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "80",
+        "chrome_android": "80",
+        "edge": "80",
+        "firefox": "90",
+        "firefox_android": "90",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "caniuse": "css-focus-visible",
+    "compat_features": [
+      "css.selectors.focus-visible"
+    ],
+    "description": "The :focus-visible CSS pseudo-class selects elements that match the :focus pseudo-class and meets the browser's criteria for visually emphasizing focused elements.",
+    "description_html": "The <code>:focus-visible</code> CSS pseudo-class selects elements that match the <code>:focus</code> pseudo-class and meets the browser's criteria for visually emphasizing focused elements.",
+    "name": ":focus-visible",
+    "spec": "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "86",
+        "chrome_android": "86",
+        "edge": "86",
+        "firefox": "85",
+        "firefox_android": "85",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2388"
+  },
+  {
+    "caniuse": "css-font-palette",
+    "compat_features": [
+      "api.CSSFontPaletteValuesRule",
+      "api.CSSFontPaletteValuesRule.basePalette",
+      "api.CSSFontPaletteValuesRule.fontFamily",
+      "api.CSSFontPaletteValuesRule.name",
+      "api.CSSFontPaletteValuesRule.overrideColors",
+      "css.at-rules.font-palette-values",
+      "css.at-rules.font-palette-values.base-palette",
+      "css.at-rules.font-palette-values.font-family",
+      "css.at-rules.font-palette-values.override-colors",
+      "css.properties.font-palette"
+    ],
+    "description": "The font-palette CSS property selects a color palette from the font, optionally overriding individual colors in the @font-palette-values at-rule.",
+    "description_html": "The <code>font-palette</code> CSS property selects a color palette from the font, optionally overriding individual colors in the <code>@font-palette-values</code> at-rule.",
+    "name": "font-palette",
+    "spec": [
+      "https://drafts.csswg.org/css-fonts-4/#font-palette-prop",
+      "https://drafts.csswg.org/css-fonts-4/#font-palette-values"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-11-15",
+      "support": {
+        "chrome": "101",
+        "chrome_android": "101",
+        "edge": "101",
+        "firefox": "107",
+        "firefox_android": "107",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/709"
+  },
+  {
+    "compat_features": [
+      "css.properties.font-synthesis"
+    ],
+    "description": "The font-synthesis CSS shorthand property disables all font synthesis except the given kinds. To disable a specific kind of font synthesis, instead use the longhand properties such as font-synthesis-style and font-synthesis-weight.",
+    "description_html": "The <code>font-synthesis</code> CSS shorthand property disables all font synthesis except the given kinds. To disable a specific kind of font synthesis, instead use the longhand properties such as <code>font-synthesis-style</code> and <code>font-synthesis-weight</code>.",
+    "name": "font-synthesis",
+    "spec": "https://drafts.csswg.org/css-fonts-4/#font-synthesis",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-01-06",
+      "support": {
+        "chrome": "97",
+        "chrome_android": "97",
+        "edge": "97",
+        "firefox": "34",
+        "firefox_android": "34",
+        "safari": "9",
+        "safari_ios": "9"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/704"
+  },
+  {
+    "compat_features": [
+      "css.properties.font-synthesis-small-caps",
+      "css.properties.font-synthesis-small-caps.auto",
+      "css.properties.font-synthesis-small-caps.none"
+    ],
+    "description": "The font-synthesis-small-caps CSS property sets whether or not the browser should synthesize small caps typefaces when they're missing from the font.",
+    "description_html": "The <code>font-synthesis-small-caps</code> CSS property sets whether or not the browser should synthesize small caps typefaces when they're missing from the font.",
+    "name": "font-synthesis-small-caps",
+    "spec": "https://drafts.csswg.org/css-fonts-4/#font-synthesis-small-caps",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "97",
+        "chrome_android": "97",
+        "edge": "97",
+        "firefox": "111",
+        "firefox_android": "111",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/703"
+  },
+  {
+    "compat_features": [
+      "css.properties.font-synthesis-style",
+      "css.properties.font-synthesis-style.auto",
+      "css.properties.font-synthesis-style.none"
+    ],
+    "description": "The font-synthesis-style CSS property sets whether or not the browser should synthesize italic and oblique typefaces when they're missing from the font.",
+    "description_html": "The <code>font-synthesis-style</code> CSS property sets whether or not the browser should synthesize italic and oblique typefaces when they're missing from the font.",
+    "name": "font-synthesis-style",
+    "spec": "https://drafts.csswg.org/css-fonts-4/#font-synthesis-style",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "97",
+        "chrome_android": "97",
+        "edge": "97",
+        "firefox": "111",
+        "firefox_android": "111",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/701"
+  },
+  {
+    "compat_features": [
+      "css.properties.font-synthesis-weight",
+      "css.properties.font-synthesis-weight.auto",
+      "css.properties.font-synthesis-weight.none"
+    ],
+    "description": "The font-synthesis-weight CSS property sets whether or not the browser should synthesize bold typefaces when they're missing from the font.",
+    "description_html": "The <code>font-synthesis-weight</code> CSS property sets whether or not the browser should synthesize bold typefaces when they're missing from the font.",
+    "name": "font-synthesis-weight",
+    "spec": "https://drafts.csswg.org/css-fonts-4/#font-synthesis-weight",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "97",
+        "chrome_android": "97",
+        "edge": "97",
+        "firefox": "111",
+        "firefox_android": "111",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/700"
+  },
+  {
+    "caniuse": "font-variant-alternates",
+    "compat_features": [
+      "api.CSSFontFeatureValuesRule",
+      "api.CSSFontFeatureValuesRule.fontFamily",
+      "css.at-rules.font-feature-values",
+      "css.at-rules.font-feature-values.annotation",
+      "css.at-rules.font-feature-values.character-variant",
+      "css.at-rules.font-feature-values.historical-forms",
+      "css.at-rules.font-feature-values.ornaments",
+      "css.at-rules.font-feature-values.styleset",
+      "css.at-rules.font-feature-values.stylistic",
+      "css.at-rules.font-feature-values.swash",
+      "css.properties.font-variant-alternates",
+      "css.properties.font-variant-alternates.annotation",
+      "css.properties.font-variant-alternates.character_variant",
+      "css.properties.font-variant-alternates.ornaments",
+      "css.properties.font-variant-alternates.styleset",
+      "css.properties.font-variant-alternates.stylistic",
+      "css.properties.font-variant-alternates.swash"
+    ],
+    "description": "The font-variant-alternates CSS property, along with the @font-feature-values at-rule, chooses when to use a font's alternate glyphs.",
+    "description_html": "The <code>font-variant-alternates</code> CSS property, along with the <code>@font-feature-values</code> at-rule, chooses when to use a font's alternate glyphs.",
+    "name": "font-variant-alternates",
+    "spec": "https://drafts.csswg.org/css-fonts-4/#font-variant-alternates-prop",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-13",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "34",
+        "firefox_android": "34",
+        "safari": "16.2",
+        "safari_ios": "16.2"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/738"
+  },
+  {
+    "compat_features": [
+      "api.HTMLElement.attachInternals",
+      "api.ElementInternals",
+      "api.ElementInternals.checkValidity",
+      "api.ElementInternals.form",
+      "api.ElementInternals.labels",
+      "api.ElementInternals.reportValidity",
+      "api.ElementInternals.setFormValue",
+      "api.ElementInternals.setValidity",
+      "api.ElementInternals.validationMessage",
+      "api.ElementInternals.validity",
+      "api.ElementInternals.willValidate"
+    ],
+    "description": "Custom elements may act like built-in form elements, via the the attachInternals() method of HTMLElement and the ElementInternals API.",
+    "description_html": "Custom elements may act like built-in form elements, via the the <code>attachInternals()</code> method of <code>HTMLElement</code> and the <code>ElementInternals</code> API.",
+    "name": "Form-associated custom elements",
+    "spec": "https://html.spec.whatwg.org/multipage/custom-elements.html#form-associated-custom-elements",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "77",
+        "chrome_android": "77",
+        "edge": "79",
+        "firefox": "98",
+        "firefox_android": "98",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.properties.grid-template-columns.animation",
+      "css.properties.grid-template-rows.animation"
+    ],
+    "description": "Grid animation allows you to animate the grid-template-columns and grid-template-rows CSS properties.",
+    "description_html": "Grid animation allows you to animate the <code>grid-template-columns</code> and <code>grid-template-rows</code> CSS properties.",
+    "name": "Grid animation",
+    "spec": "https://drafts.csswg.org/css-grid-2/#track-sizing",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-10-27",
+      "support": {
+        "chrome": "107",
+        "chrome_android": "107",
+        "edge": "107",
+        "firefox": "66",
+        "firefox_android": "66",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "caniuse": "css-has",
+    "compat_features": [
+      "css.selectors.has"
+    ],
+    "description": "The :has() CSS functional pseudo-class matches an element if any of the selectors passed as parameters would match at least one element.",
+    "description_html": "The <code>:has()</code> CSS functional pseudo-class matches an element if any of the selectors passed as parameters would match at least one element.",
+    "name": ":has()",
+    "spec": "https://drafts.csswg.org/selectors-4/#relational",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-19",
+      "support": {
+        "chrome": "105",
+        "chrome_android": "105",
+        "edge": "105",
+        "firefox": "121",
+        "firefox_android": "121",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/4743"
+  },
+  {
+    "caniuse": "css-hyphens",
+    "compat_features": [
+      "css.properties.hyphens"
+    ],
+    "description": "The hyphens CSS property controls when long words are broken by line wrapping. Although called hyphens, the property applies to word-splitting behavior across languages, such as customary spelling changes or the use of other characters to mark an intraword line break.",
+    "description_html": "The <code>hyphens</code> CSS property controls when long words are broken by line wrapping. Although called <code>hyphens</code>, the property applies to word-splitting behavior across languages, such as customary spelling changes or the use of other characters to mark an intraword line break.",
+    "name": "Hyphenation",
+    "spec": "https://drafts.csswg.org/css-text-3/#hyphens-property",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-09-18",
+      "support": {
+        "chrome": "55",
+        "chrome_android": "55",
+        "edge": "79",
+        "firefox": "43",
+        "firefox_android": "43",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/534"
+  },
+  {
+    "compat_features": [
+      "css.types.length.ic"
+    ],
+    "description": "The CSS ic unit corresponds to the width of CJK ideographic characters.",
+    "description_html": "The CSS <code>ic</code> unit corresponds to the width of CJK ideographic characters.",
+    "name": "ic unit",
+    "spec": "https://drafts.csswg.org/css-values-4/#ic",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-10-03",
+      "support": {
+        "chrome": "106",
+        "chrome_android": "106",
+        "edge": "106",
+        "firefox": "97",
+        "firefox_android": "97",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "caniuse": "css-image-set",
+    "compat_features": [
+      "css.properties.background-image.image-set",
+      "css.properties.content.image-set",
+      "css.types.image.image-set"
+    ],
+    "description": "The image-set() CSS function provides a set of images at different resolutions or pixel densities, which the browser can pick from, depending on the device capabilities.",
+    "description_html": "The <code>image-set()</code> CSS function provides a set of images at different resolutions or pixel densities, which the browser can pick from, depending on the device capabilities.",
+    "name": "image-set()",
+    "spec": "https://drafts.csswg.org/css-images-4/#image-set-notation",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-09-18",
+      "support": {
+        "chrome": "113",
+        "chrome_android": "113",
+        "edge": "113",
+        "firefox": "89",
+        "firefox_android": "89",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    }
+  },
+  {
+    "caniuse": "import-maps",
+    "compat_features": [
+      "html.elements.script.type.importmap"
+    ],
+    "description": "A <script type=\"importmap\"> HTML element provides an import map as a JSON string. An import map controls how the browser should resolve module specifiers when importing JavaScript modules.",
+    "description_html": "A <code>&#x3C;script type=\"importmap\"></code> HTML element provides an import map as a JSON string. An import map controls how the browser should resolve module specifiers when importing JavaScript modules.",
+    "name": "Import maps",
+    "spec": "https://html.spec.whatwg.org/multipage/webappapis.html#import-maps",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "89",
+        "chrome_android": "89",
+        "edge": "89",
+        "firefox": "108",
+        "firefox_android": "108",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2831"
+  },
+  {
+    "compat_features": [
+      "css.properties.rotate",
+      "css.properties.scale",
+      "css.properties.translate"
+    ],
+    "description": "Transform elements with separate translate, rotate, and scale CSS properties.",
+    "description_html": "Transform elements with separate <code>translate</code>, <code>rotate</code>, and <code>scale</code> CSS properties.",
+    "name": "Individual transform properties",
+    "spec": "https://drafts.csswg.org/css-transforms-2/#individual-transforms",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-08-05",
+      "support": {
+        "chrome": "104",
+        "chrome_android": "104",
+        "edge": "104",
+        "firefox": "72",
+        "firefox_android": "79",
+        "safari": "14.1",
+        "safari_ios": "14.5"
+      }
+    },
+    "usage_stats": [
+      "https://chromestatus.com/metrics/css/timeline/popularity/504",
+      "https://chromestatus.com/metrics/css/timeline/popularity/505",
+      "https://chromestatus.com/metrics/css/timeline/popularity/506"
+    ]
+  },
+  {
+    "compat_features": [
+      "api.HTMLElement.inert",
+      "html.global_attributes.inert"
+    ],
+    "description": "The inert HTML attribute marks an element and its descendants as non-interactive. Inert elements don't get focus or fire click events.",
+    "description_html": "The <code>inert</code> HTML attribute marks an element and its descendants as non-interactive. Inert elements don't get focus or fire <code>click</code> events.",
+    "name": "Inert elements",
+    "spec": "https://html.spec.whatwg.org/multipage/interaction.html#inert-subtrees",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-04-11",
+      "support": {
+        "chrome": "102",
+        "chrome_android": "102",
+        "edge": "102",
+        "firefox": "112",
+        "firefox_android": "112",
+        "safari": "15.5",
+        "safari_ios": "15.5"
+      }
+    }
+  },
+  {
+    "caniuse": "input-event",
+    "compat_features": [
+      "api.Element.input_event",
+      "api.InputEvent",
+      "api.InputEvent.InputEvent",
+      "api.InputEvent.data",
+      "api.InputEvent.dataTransfer",
+      "api.InputEvent.getTargetRanges",
+      "api.InputEvent.inputType",
+      "api.InputEvent.isComposing"
+    ],
+    "description": "The input event fires when a form control changes or an element with the contenteditable attribute changes.",
+    "description_html": "The <code>input</code> event fires when a form control changes or an element with the <code>contenteditable</code> attribute changes.",
+    "name": "input event",
+    "spec": "https://w3c.github.io/uievents/#event-type-input",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "60",
+        "chrome_android": "60",
+        "edge": "79",
+        "firefox": "87",
+        "firefox_android": "87",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.Worker.Worker.ecmascript_modules",
+      "api.Worker.Worker.options_type_parameter",
+      "javascript.operators.import.worker_support",
+      "javascript.statements.import.worker_support"
+    ],
+    "description": "The Worker() constructor accepts { type: \"module\" } to load scripts that use import and export. Also known as ECMAScript modules or ESM in workers.",
+    "description_html": "The <code>Worker()</code> constructor accepts <code>{ type: \"module\" }</code> to load scripts that use <code>import</code> and <code>export</code>. Also known as ECMAScript modules or ESM in workers.",
+    "name": "JavaScript modules in workers",
+    "spec": "https://html.spec.whatwg.org/multipage/workers.html#dom-worker-dev",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-06-06",
+      "support": {
+        "chrome": "80",
+        "chrome_android": "80",
+        "edge": "80",
+        "firefox": "114",
+        "firefox_android": "114",
+        "safari": "15",
+        "safari_ios": "15"
+      }
+    }
+  },
+  {
+    "caniuse": "css-lch-lab",
+    "compat_features": [
+      "css.types.color.lab",
+      "css.types.color.lch"
+    ],
+    "description": "The CIE Lab color space expresses colors in terms of lightness and how red/green and blue/yellow a color is. LCH is a variant of Lab with polar coordinates. These color spaces can be used with the CSS color(), lab(), and lch() functions. Also known as CIELAB and CIELCH.",
+    "description_html": "The CIE Lab color space expresses colors in terms of lightness and how red/green and blue/yellow a color is. LCH is a variant of Lab with polar coordinates. These color spaces can be used with the CSS <code>color()</code>, <code>lab()</code>, and <code>lch()</code> functions. Also known as CIELAB and CIELCH.",
+    "name": "Lab and LCH",
+    "spec": "https://drafts.csswg.org/css-color-4/#cie-lab",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-05-09",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "15",
+        "safari_ios": "15"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.length.lh"
+    ],
+    "description": "The CSS lh unit corresponds to the requested line height, the computed value of the line-height property. Some lines may be higher than this based on their content.",
+    "description_html": "The CSS <code>lh</code> unit corresponds to the requested line height, the computed value of the <code>line-height</code> property. Some lines may be higher than this based on their content.",
+    "name": "lh unit",
+    "spec": "https://drafts.csswg.org/css-values-4/#lh",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-11-21",
+      "support": {
+        "chrome": "109",
+        "chrome_android": "109",
+        "edge": "109",
+        "firefox": "120",
+        "firefox_android": "120",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.color.light-dark"
+    ],
+    "description": "The light-dark() CSS function accepts two colors and uses one depending on the current color scheme.",
+    "description_html": "The <code>light-dark()</code> CSS function accepts two colors and uses one depending on the current color scheme.",
+    "name": "light-dark()",
+    "spec": "https://drafts.csswg.org/css-color-5/#light-dark",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-05-13",
+      "support": {
+        "chrome": "123",
+        "chrome_android": "123",
+        "edge": "123",
+        "firefox": "120",
+        "firefox_android": "120",
+        "safari": "17.5",
+        "safari_ios": "17.5"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.easing-function.linear-function"
+    ],
+    "description": "The linear() easing function for animations and transitions interpolates linearly between the control points, and can be used to approximate complex easing functions, such as a bounce effect.",
+    "description_html": "The <code>linear()</code> easing function for animations and transitions interpolates linearly between the control points, and can be used to approximate complex easing functions, such as a bounce effect.",
+    "name": "linear() easing",
+    "spec": "https://drafts.csswg.org/css-easing-2/#the-linear-easing-function",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-11",
+      "support": {
+        "chrome": "113",
+        "chrome_android": "113",
+        "edge": "113",
+        "firefox": "112",
+        "firefox_android": "112",
+        "safari": "17.2",
+        "safari_ios": "17.2"
+      }
+    }
+  },
+  {
+    "caniuse": "loading-lazy-attr",
+    "compat_features": [
+      "api.HTMLIFrameElement.loading",
+      "api.HTMLImageElement.loading",
+      "html.elements.iframe.loading",
+      "html.elements.img.loading"
+    ],
+    "description": "The loading=\"lazy\" attribute for <img> and <iframe> elements blocks loading the external resource until the user scrolls to that element's part of the page.",
+    "description_html": "The <code>loading=\"lazy\"</code> attribute for <code>&#x3C;img></code> and <code>&#x3C;iframe></code> elements blocks loading the external resource until the user scrolls to that element's part of the page.",
+    "name": "Lazy-loading images and iframes",
+    "spec": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#lazy-loading-attributes",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-19",
+      "support": {
+        "chrome": "77",
+        "chrome_android": "77",
+        "edge": "79",
+        "firefox": "121",
+        "firefox_android": "121",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "caniuse": "css-masks",
+    "compat_features": [
+      "css.properties.mask",
+      "css.properties.mask-clip",
+      "css.properties.mask-composite",
+      "css.properties.mask-image",
+      "css.properties.mask-mode",
+      "css.properties.mask-origin",
+      "css.properties.mask-position",
+      "css.properties.mask-repeat",
+      "css.properties.mask-size"
+    ],
+    "description": "The mask CSS property (and several longhand properties) partially or completely hides an element according to the shape and depth of an image.",
+    "description_html": "The <code>mask</code> CSS property (and several longhand properties) partially or completely hides an element according to the shape and depth of an image.",
+    "name": "Masks",
+    "spec": "https://drafts.fxtf.org/css-masking-1/#positioned-masks",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-07",
+      "support": {
+        "chrome": "120",
+        "chrome_android": "120",
+        "edge": "120",
+        "firefox": "53",
+        "firefox_android": "53",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "caniuse": "mathml",
+    "description": "MathML, or the Mathematical Markup Language, describes mathematical notation, such as expressions and formulas. Also known as MathML Core.",
+    "description_html": "MathML, or the Mathematical Markup Language, describes mathematical notation, such as expressions and formulas. Also known as MathML Core.",
+    "name": "MathML",
+    "spec": "https://w3c.github.io/mathml-core/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-01-12",
+      "support": {
+        "chrome": "109",
+        "chrome_android": "109",
+        "edge": "109",
+        "firefox": "4",
+        "firefox_android": "4",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "caniuse": "css-media-range-syntax",
+    "compat_features": [
+      "css.at-rules.media.range_syntax"
+    ],
+    "description": "The range syntax of CSS media queries allows you to use mathematical comparison operators such as <, >, <=, and >= to define a range of values for a media feature. For example, (400px < width < 1000px) returns true if the viewport width is between 400px and 1000px.",
+    "description_html": "The range syntax of CSS media queries allows you to use mathematical comparison operators such as <code>&#x3C;</code>, <code>></code>, <code>&#x3C;=</code>, and <code>>=</code> to define a range of values for a media feature. For example, <code>(400px &#x3C; width &#x3C; 1000px)</code> returns true if the viewport width is between 400px and 1000px.",
+    "name": "Media query range syntax",
+    "spec": "https://drafts.csswg.org/mediaqueries-4/#mq-range-context",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "104",
+        "chrome_android": "104",
+        "edge": "104",
+        "firefox": "102",
+        "firefox_android": "102",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.DedicatedWorkerGlobalScope.messageerror_event",
+      "api.MessagePort.messageerror_event",
+      "api.ServiceWorkerContainer.messageerror_event",
+      "api.Window.messageerror_event"
+    ],
+    "description": "The messageerror event fires on a target, such as a window or worker, when an incoming message cannot be deserialized. This event can fire for many types of messages, such as cross-document messages or broadcast channel messages.",
+    "description_html": "The <code>messageerror</code> event fires on a target, such as a window or worker, when an incoming message cannot be deserialized. This event can fire for many types of messages, such as cross-document messages or broadcast channel messages.",
+    "name": "messageerror",
+    "spec": [
+      "https://html.spec.whatwg.org/multipage/indices.html#event-messageerror",
+      "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "80",
+        "chrome_android": "80",
+        "edge": "80",
+        "firefox": "65",
+        "firefox_android": "65",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.selectors.modal"
+    ],
+    "description": "The :modal pseudo-class selects elements that put other elements into a non-interactive state, such as a fullscreen element or a <dialog> element used with showModal().",
+    "description_html": "The <code>:modal</code> pseudo-class selects elements that put other elements into a non-interactive state, such as a fullscreen element or a <code>&#x3C;dialog></code> element used with <code>showModal()</code>.",
+    "name": ":modal",
+    "spec": "https://drafts.csswg.org/selectors-4/#modal-state",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-09-02",
+      "support": {
+        "chrome": "105",
+        "chrome_android": "105",
+        "edge": "105",
+        "firefox": "103",
+        "firefox_android": "103",
+        "safari": "15.6",
+        "safari_ios": "15.6"
+      }
+    }
+  },
+  {
+    "caniuse": "link-rel-modulepreload",
+    "compat_features": [
+      "html.elements.link.rel.modulepreload"
+    ],
+    "description": "The rel=\"modulepreload\" attribute for the <link> HTML element indicates that a module script should be fetched, parsed, and compiled preemptively, and stored for later execution.",
+    "description_html": "The <code>rel=\"modulepreload\"</code> attribute for the <code>&#x3C;link></code> HTML element indicates that a module script should be fetched, parsed, and compiled preemptively, and stored for later execution.",
+    "name": "<link rel=\"modulepreload\">",
+    "spec": "https://html.spec.whatwg.org/multipage/links.html#link-type-modulepreload",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-09-18",
+      "support": {
+        "chrome": "66",
+        "chrome_android": "66",
+        "edge": "79",
+        "firefox": "115",
+        "firefox_android": "115",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    }
+  },
+  {
+    "caniuse": "css-motion-paths",
+    "compat_features": [
+      "css.properties.offset",
+      "css.properties.offset-anchor",
+      "css.properties.offset-distance",
+      "css.properties.offset-path",
+      "css.properties.offset-path.path",
+      "css.properties.offset-rotate"
+    ],
+    "description": "The offset CSS property animates an element along a defined motion path.",
+    "description_html": "The <code>offset</code> CSS property animates an element along a defined motion path.",
+    "name": "Motion path",
+    "spec": "https://drafts.fxtf.org/motion-1/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-08-21",
+      "support": {
+        "chrome": "116",
+        "chrome_android": "116",
+        "edge": "116",
+        "firefox": "72",
+        "firefox_android": "79",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "caniuse": "css-nesting",
+    "compat_features": [
+      "api.CSSStyleRule.cssRules",
+      "api.CSSStyleRule.deleteRule",
+      "api.CSSStyleRule.insertRule",
+      "css.selectors.nesting"
+    ],
+    "description": "CSS nesting allows for shorter selectors, easier reading, and more modularity by nesting rules inside others.",
+    "description_html": "CSS nesting allows for shorter selectors, easier reading, and more modularity by nesting rules inside others.",
+    "name": "Nesting",
+    "spec": "https://drafts.csswg.org/css-nesting-1/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-11",
+      "support": {
+        "chrome": "120",
+        "chrome_android": "120",
+        "edge": "120",
+        "firefox": "117",
+        "firefox_android": "117",
+        "safari": "17.2",
+        "safari_ios": "17.2"
+      }
+    }
+  },
+  {
+    "caniuse": "css-nth-child-of",
+    "compat_features": [
+      "css.selectors.nth-child.of_syntax",
+      "css.selectors.nth-last-child.of_syntax"
+    ],
+    "description": "The of syntax for the :nth-child() and :nth-last-child() CSS functional pseudo-classes match elements by the relative position of elements, counted from the first or last sibling matching a selector list.",
+    "description_html": "The <code>of</code> syntax for the <code>:nth-child()</code> and <code>:nth-last-child()</code> CSS functional pseudo-classes match elements by the relative position of elements, counted from the first or last sibling matching a selector list.",
+    "name": ":nth-child() of <selector>",
+    "spec": [
+      "https://drafts.csswg.org/selectors-4/#the-nth-child-pseudo",
+      "https://drafts.csswg.org/selectors-4/#the-nth-last-child-pseudo"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-05-09",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "9",
+        "safari_ios": "9"
+      }
+    }
+  },
+  {
+    "caniuse": "offscreencanvas",
+    "compat_features": [
+      "api.HTMLCanvasElement.transferControlToOffscreen",
+      "api.OffscreenCanvas",
+      "api.OffscreenCanvas.convertToBlob",
+      "api.OffscreenCanvas.getContext",
+      "api.OffscreenCanvas.getContext.2d_context",
+      "api.OffscreenCanvas.getContext.bitmaprenderer_context",
+      "api.OffscreenCanvas.height",
+      "api.OffscreenCanvas.OffscreenCanvas",
+      "api.OffscreenCanvas.transferToImageBitmap",
+      "api.OffscreenCanvas.width",
+      "api.OffscreenCanvasRenderingContext2D",
+      "api.OffscreenCanvasRenderingContext2D.arc",
+      "api.OffscreenCanvasRenderingContext2D.arcTo",
+      "api.OffscreenCanvasRenderingContext2D.beginPath",
+      "api.OffscreenCanvasRenderingContext2D.bezierCurveTo",
+      "api.OffscreenCanvasRenderingContext2D.canvas",
+      "api.OffscreenCanvasRenderingContext2D.clearRect",
+      "api.OffscreenCanvasRenderingContext2D.clip",
+      "api.OffscreenCanvasRenderingContext2D.closePath",
+      "api.OffscreenCanvasRenderingContext2D.createImageData",
+      "api.OffscreenCanvasRenderingContext2D.createLinearGradient",
+      "api.OffscreenCanvasRenderingContext2D.createPattern",
+      "api.OffscreenCanvasRenderingContext2D.createRadialGradient",
+      "api.OffscreenCanvasRenderingContext2D.direction",
+      "api.OffscreenCanvasRenderingContext2D.drawImage",
+      "api.OffscreenCanvasRenderingContext2D.ellipse",
+      "api.OffscreenCanvasRenderingContext2D.fill",
+      "api.OffscreenCanvasRenderingContext2D.fillRect",
+      "api.OffscreenCanvasRenderingContext2D.fillStyle",
+      "api.OffscreenCanvasRenderingContext2D.fillText",
+      "api.OffscreenCanvasRenderingContext2D.font",
+      "api.OffscreenCanvasRenderingContext2D.getImageData",
+      "api.OffscreenCanvasRenderingContext2D.getLineDash",
+      "api.OffscreenCanvasRenderingContext2D.getTransform",
+      "api.OffscreenCanvasRenderingContext2D.globalAlpha",
+      "api.OffscreenCanvasRenderingContext2D.globalCompositeOperation",
+      "api.OffscreenCanvasRenderingContext2D.imageSmoothingEnabled",
+      "api.OffscreenCanvasRenderingContext2D.isPointInPath",
+      "api.OffscreenCanvasRenderingContext2D.isPointInStroke",
+      "api.OffscreenCanvasRenderingContext2D.lineCap",
+      "api.OffscreenCanvasRenderingContext2D.lineDashOffset",
+      "api.OffscreenCanvasRenderingContext2D.lineJoin",
+      "api.OffscreenCanvasRenderingContext2D.lineTo",
+      "api.OffscreenCanvasRenderingContext2D.lineWidth",
+      "api.OffscreenCanvasRenderingContext2D.measureText",
+      "api.OffscreenCanvasRenderingContext2D.miterLimit",
+      "api.OffscreenCanvasRenderingContext2D.moveTo",
+      "api.OffscreenCanvasRenderingContext2D.putImageData",
+      "api.OffscreenCanvasRenderingContext2D.quadraticCurveTo",
+      "api.OffscreenCanvasRenderingContext2D.rect",
+      "api.OffscreenCanvasRenderingContext2D.resetTransform",
+      "api.OffscreenCanvasRenderingContext2D.restore",
+      "api.OffscreenCanvasRenderingContext2D.rotate",
+      "api.OffscreenCanvasRenderingContext2D.save",
+      "api.OffscreenCanvasRenderingContext2D.scale",
+      "api.OffscreenCanvasRenderingContext2D.setLineDash",
+      "api.OffscreenCanvasRenderingContext2D.setTransform",
+      "api.OffscreenCanvasRenderingContext2D.shadowBlur",
+      "api.OffscreenCanvasRenderingContext2D.shadowColor",
+      "api.OffscreenCanvasRenderingContext2D.shadowOffsetX",
+      "api.OffscreenCanvasRenderingContext2D.shadowOffsetY",
+      "api.OffscreenCanvasRenderingContext2D.stroke",
+      "api.OffscreenCanvasRenderingContext2D.strokeRect",
+      "api.OffscreenCanvasRenderingContext2D.strokeStyle",
+      "api.OffscreenCanvasRenderingContext2D.strokeText",
+      "api.OffscreenCanvasRenderingContext2D.textAlign",
+      "api.OffscreenCanvasRenderingContext2D.textBaseline",
+      "api.OffscreenCanvasRenderingContext2D.transform",
+      "api.OffscreenCanvasRenderingContext2D.translate"
+    ],
+    "description": "The OffscreenCanvas API provides a canvas that can be drawn to off screen, with no dependencies on the DOM, which can be used to run heavy rendering operations inside a worker context.",
+    "description_html": "The <code>OffscreenCanvas</code> API provides a canvas that can be drawn to off screen, with no dependencies on the DOM, which can be used to run heavy rendering operations inside a worker context.",
+    "name": "Offscreen canvas",
+    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#the-offscreencanvas-interface",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "80",
+        "chrome_android": "80",
+        "edge": "80",
+        "firefox": "105",
+        "firefox_android": "105",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/1624"
+  },
+  {
+    "compat_features": [
+      "css.types.color.oklab",
+      "css.types.color.oklch"
+    ],
+    "description": "The Oklab color space expresses colors in terms of lightness and how red/green and blue/yellow a color is, aiming to match how humans perceive colors. Oklch is a variant of Oklab with polar coordinates. These color spaces can be used with the CSS color(), oklab(), and oklch() functions.",
+    "description_html": "The Oklab color space expresses colors in terms of lightness and how red/green and blue/yellow a color is, aiming to match how humans perceive colors. Oklch is a variant of Oklab with polar coordinates. These color spaces can be used with the CSS <code>color()</code>, <code>oklab()</code>, and <code>oklch()</code> functions.",
+    "name": "Oklab and Oklch",
+    "spec": "https://drafts.csswg.org/css-color-4/#ok-lab",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-05-09",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.FileSystemDirectoryHandle",
+      "api.FileSystemDirectoryHandle.entries",
+      "api.FileSystemDirectoryHandle.getDirectoryHandle",
+      "api.FileSystemDirectoryHandle.getFileHandle",
+      "api.FileSystemDirectoryHandle.keys",
+      "api.FileSystemDirectoryHandle.removeEntry",
+      "api.FileSystemDirectoryHandle.resolve",
+      "api.FileSystemDirectoryHandle.values",
+      "api.FileSystemFileHandle",
+      "api.FileSystemFileHandle.createSyncAccessHandle",
+      "api.FileSystemFileHandle.getFile",
+      "api.FileSystemHandle",
+      "api.FileSystemHandle.isSameEntry",
+      "api.FileSystemHandle.kind",
+      "api.FileSystemHandle.name",
+      "api.FileSystemSyncAccessHandle",
+      "api.FileSystemSyncAccessHandle.close",
+      "api.FileSystemSyncAccessHandle.flush",
+      "api.FileSystemSyncAccessHandle.getSize",
+      "api.FileSystemSyncAccessHandle.read",
+      "api.FileSystemSyncAccessHandle.truncate",
+      "api.FileSystemSyncAccessHandle.write",
+      "api.StorageManager.getDirectory"
+    ],
+    "description": "The navigator.storage.getDirectory() method returns a FileSystemDirectoryHandle that is restricted to a specific origin and invisible to the user's actual file system for faster file-based applications, such as SQLite databases.",
+    "description_html": "The <code>navigator.storage.getDirectory()</code> method returns a <code>FileSystemDirectoryHandle</code> that is restricted to a specific origin and invisible to the user's actual file system for faster file-based applications, such as SQLite databases.",
+    "name": "Origin private file system",
+    "spec": "https://fs.spec.whatwg.org/#origin-private-file-system",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-14",
+      "support": {
+        "chrome": "102",
+        "chrome_android": "109",
+        "edge": "102",
+        "firefox": "111",
+        "firefox_android": "111",
+        "safari": "15.2",
+        "safari_ios": "15.2"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/3428"
+  },
+  {
+    "caniuse": "css-overflow",
+    "compat_features": [
+      "css.properties.overflow",
+      "css.properties.overflow.clip",
+      "css.properties.overflow.multiple_keywords",
+      "css.properties.overflow-x",
+      "css.properties.overflow-x.clip",
+      "css.properties.overflow-y",
+      "css.properties.overflow-y.clip",
+      "css.types.overflow",
+      "css.types.overflow.clip"
+    ],
+    "description": "The overflow CSS property sets the behavior for when content doesn't fit in an element.",
+    "description_html": "The <code>overflow</code> CSS property sets the behavior for when content doesn't fit in an element.",
+    "name": "overflow",
+    "spec": "https://drafts.csswg.org/css-overflow-3/#propdef-overflow",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-09-12",
+      "support": {
+        "chrome": "90",
+        "chrome_android": "90",
+        "edge": "90",
+        "firefox": "81",
+        "firefox_android": "81",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.Document.parseHTMLUnsafe_static",
+      "api.Element.setHTMLUnsafe",
+      "api.ShadowRoot.setHTMLUnsafe"
+    ],
+    "description": "The Document.parseHTMLUnsafe() static method parses HTML into a DOM tree, while the setHTMLUnsafe() method of Element and ShadowRoot parses and inserts HTML into an existing tree. No sanitization applies to these methods, so never call them with user-provided HTML strings.",
+    "description_html": "The <code>Document.parseHTMLUnsafe()</code> static method parses HTML into a DOM tree, while the <code>setHTMLUnsafe()</code> method of <code>Element</code> and <code>ShadowRoot</code> parses and inserts HTML into an existing tree. No sanitization applies to these methods, so never call them with user-provided HTML strings.",
+    "name": "Unsanitized HTML parsing methods",
+    "spec": "https://html.spec.whatwg.org/multipage/dynamic-markup-insertion.html#unsafe-html-parsing-methods",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-04-18",
+      "support": {
+        "chrome": "124",
+        "chrome_android": "124",
+        "edge": "124",
+        "firefox": "123",
+        "firefox_android": "123",
+        "safari": "17.4",
+        "safari_ios": "17.4"
+      }
+    }
+  },
+  {
+    "caniuse": "permissions-api",
+    "compat_features": [
+      "api.Navigator.permissions",
+      "api.PermissionStatus",
+      "api.PermissionStatus.state",
+      "api.Permissions",
+      "api.Permissions.query"
+    ],
+    "description": "The navigator.permissions API checks whether a permission, such as access to geolocation data, has been granted.",
+    "description_html": "The <code>navigator.permissions</code> API checks whether a permission, such as access to geolocation data, has been granted.",
+    "name": "Permissions",
+    "spec": "https://w3c.github.io/permissions/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-09-12",
+      "support": {
+        "chrome": "44",
+        "chrome_android": "44",
+        "edge": "79",
+        "firefox": "46",
+        "firefox_android": "46",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.HTMLButtonElement.popoverTargetAction",
+      "api.HTMLButtonElement.popoverTargetElement",
+      "api.HTMLElement.beforetoggle_event",
+      "api.HTMLElement.hidePopover",
+      "api.HTMLElement.popover",
+      "api.HTMLElement.showPopover",
+      "api.HTMLElement.togglePopover",
+      "api.HTMLElement.toggle_event",
+      "api.HTMLInputElement.popoverTargetAction",
+      "api.HTMLInputElement.popoverTargetElement",
+      "api.ToggleEvent",
+      "api.ToggleEvent.ToggleEvent",
+      "api.ToggleEvent.newState",
+      "api.ToggleEvent.oldState",
+      "css.selectors.backdrop.popover",
+      "css.selectors.popover-open",
+      "html.elements.button.popovertarget",
+      "html.elements.button.popovertargetaction",
+      "html.elements.input.popovertarget",
+      "html.elements.input.popovertargetaction",
+      "html.global_attributes.popover"
+    ],
+    "description": "The popover HTML attribute creates an overlay to display content on top of other page content. Popovers can be shown declaratively using HTML, or using the showPopover() method.",
+    "description_html": "The <code>popover</code> HTML attribute creates an overlay to display content on top of other page content. Popovers can be shown declaratively using HTML, or using the <code>showPopover()</code> method.",
+    "name": "Popover",
+    "spec": "https://html.spec.whatwg.org/multipage/popover.html",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-04-16",
+      "support": {
+        "chrome": "114",
+        "chrome_android": "114",
+        "edge": "114",
+        "firefox": "125",
+        "firefox_android": "125",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/4191"
+  },
+  {
+    "compat_features": [
+      "api.HTMLLinkElement.imageSizes",
+      "api.HTMLLinkElement.imageSrcset",
+      "html.elements.link.imagesizes",
+      "html.elements.link.imagesrcset"
+    ],
+    "description": "The imagesrcset and imagesizes attributes with the rel=\"preload\" attribute for the <link> HTML element starts fetching responsive images before they're found in the body of the document.",
+    "description_html": "The <code>imagesrcset</code> and <code>imagesizes</code> attributes with the <code>rel=\"preload\"</code> attribute for the <code>&#x3C;link></code> HTML element starts fetching responsive images before they're found in the body of the document.",
+    "name": "Preloading responsive images",
+    "spec": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-imagesrcset",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-11",
+      "support": {
+        "chrome": "73",
+        "chrome_android": "73",
+        "edge": "79",
+        "firefox": "78",
+        "firefox_android": "79",
+        "safari": "17.2",
+        "safari_ios": "17.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.HTMLMediaElement.preservesPitch"
+    ],
+    "description": "The preservesPitch property for <audio> or <video> adjusts the pitch of audio to sound more natural when the playback rate is faster or slower than the default.",
+    "description_html": "The <code>preservesPitch</code> property for <code>&#x3C;audio></code> or <code>&#x3C;video></code> adjusts the pitch of audio to sound more natural when the playback rate is faster or slower than the default.",
+    "name": "preservesPitch",
+    "spec": "https://html.spec.whatwg.org/multipage/media.html#dom-media-preservespitch-dev",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-11",
+      "support": {
+        "chrome": "86",
+        "chrome_android": "86",
+        "edge": "86",
+        "firefox": "101",
+        "firefox_android": "101",
+        "safari": "17.2",
+        "safari_ios": "17.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.Window.print"
+    ],
+    "description": "The window.print() method opens the browser's print dialog.",
+    "description_html": "The <code>window.print()</code> method opens the browser's print dialog.",
+    "name": "window.print()",
+    "spec": "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html#printing",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-06-06",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "1",
+        "firefox_android": "114",
+        "safari": "1.1",
+        "safari_ios": "1"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Promise.withResolvers"
+    ],
+    "description": "The Promise.withResolvers() static method is an alternative to the Promise() constructor that returns both the promise and resolution functions. You can use this to access resolve and reject outside the scope of the executor function.",
+    "description_html": "The <code>Promise.withResolvers()</code> static method is an alternative to the <code>Promise()</code> constructor that returns both the promise and resolution functions. You can use this to access <code>resolve</code> and <code>reject</code> outside the scope of the executor function.",
+    "name": "Promise.withResolvers()",
+    "spec": "https://tc39.es/proposal-promise-with-resolvers/#sec-promise.withResolvers",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-03-05",
+      "support": {
+        "chrome": "119",
+        "chrome_android": "119",
+        "edge": "119",
+        "firefox": "121",
+        "firefox_android": "121",
+        "safari": "17.4",
+        "safari_ios": "17.4"
+      }
+    }
+  },
+  {
+    "caniuse": "push-api",
+    "compat_features": [
+      "api.PushEvent",
+      "api.PushEvent.PushEvent",
+      "api.PushEvent.data",
+      "api.PushManager",
+      "api.PushManager.getSubscription",
+      "api.PushManager.permissionState",
+      "api.PushMessageData",
+      "api.PushMessageData.arrayBuffer",
+      "api.PushMessageData.blob",
+      "api.PushMessageData.json",
+      "api.PushMessageData.text",
+      "api.PushSubscription",
+      "api.PushSubscription.endpoint",
+      "api.PushSubscription.getKey",
+      "api.PushSubscription.toJSON",
+      "api.PushSubscription.unsubscribe",
+      "api.ServiceWorkerRegistration.pushManager",
+      "api.ServiceWorkerGlobalScope.push_event"
+    ],
+    "description": "The Push API subscribes to and receives server-initiated messages. Subscribers receive pushed messages in the background, even after periods inactive or offline.",
+    "description_html": "The Push API subscribes to and receives server-initiated messages. Subscribers receive pushed messages in the background, even after periods inactive or offline.",
+    "name": "Push messages",
+    "spec": "https://w3c.github.io/push-api/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "50",
+        "chrome_android": "50",
+        "edge": "17",
+        "firefox": "44",
+        "firefox_android": "48",
+        "safari": "16",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.DedicatedWorkerGlobalScope.cancelAnimationFrame",
+      "api.DedicatedWorkerGlobalScope.requestAnimationFrame"
+    ],
+    "description": "The requestAnimationFrame() method in workers schedules a function that runs before the next repaint. Together with offscreen canvas, you can animate content from a worker.",
+    "description_html": "The <code>requestAnimationFrame()</code> method in workers schedules a function that runs before the next repaint. Together with offscreen canvas, you can animate content from a worker.",
+    "name": "requestAnimationFrame() in workers",
+    "spec": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "69",
+        "chrome_android": "69",
+        "edge": "79",
+        "firefox": "99",
+        "firefox_android": "99",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.PerformanceResourceTiming.transferSize",
+      "api.PerformanceResourceTiming.decodedBodySize",
+      "api.PerformanceResourceTiming.encodedBodySize"
+    ],
+    "description": "The decodedSize, encodedSize, and transferSize properties of the PerformanceResourceTiming API reports the size of resources loaded.",
+    "description_html": "The <code>decodedSize</code>, <code>encodedSize</code>, and <code>transferSize</code> properties of the <code>PerformanceResourceTiming</code> API reports the size of resources loaded.",
+    "name": "Resource size",
+    "spec": [
+      "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-decodedbodysize",
+      "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-encodedbodysize",
+      "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-transfersize"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "54",
+        "chrome_android": "54",
+        "edge": "17",
+        "firefox": "45",
+        "firefox_android": "45",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.mod",
+      "css.types.rem",
+      "css.types.round"
+    ],
+    "description": "The round(), mod(), and rem() CSS functions compute rounded values and the remainder after division.",
+    "description_html": "The <code>round()</code>, <code>mod()</code>, and <code>rem()</code> CSS functions compute rounded values and the remainder after division.",
+    "name": "round(), mod(), and rem()",
+    "spec": "https://drafts.csswg.org/css-values-4/#round-func",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-05-17",
+      "support": {
+        "chrome": "125",
+        "chrome_android": "125",
+        "edge": "125",
+        "firefox": "118",
+        "firefox_android": "118",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "caniuse": "screen-orientation",
+    "compat_features": [
+      "api.Screen.orientation",
+      "api.ScreenOrientation",
+      "api.ScreenOrientation.angle",
+      "api.ScreenOrientation.change_event",
+      "api.ScreenOrientation.type"
+    ],
+    "description": "The screen.orientation API gets information about the orientation of the viewport, such as landscape or portrait. With this API, you can adapt an application's layout or behavior in response to changes in orientation.",
+    "description_html": "The <code>screen.orientation</code> API gets information about the orientation of the viewport, such as landscape or portrait. With this API, you can adapt an application's layout or behavior in response to changes in orientation.",
+    "name": "Screen orientation",
+    "spec": "https://w3c.github.io/screen-orientation/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "38",
+        "chrome_android": "39",
+        "edge": "79",
+        "firefox": "43",
+        "firefox_android": "43",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "html.elements.search"
+    ],
+    "description": "The <search> HTML element is a container that represents the parts of the web page with search functionality.",
+    "description_html": "The <code>&#x3C;search></code> HTML element is a container that represents the parts of the web page with search functionality.",
+    "name": "<search>",
+    "spec": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-search-element",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-10-13",
+      "support": {
+        "chrome": "118",
+        "chrome_android": "118",
+        "edge": "118",
+        "firefox": "118",
+        "firefox_android": "118",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    }
+  },
+  {
+    "caniuse": "server-timing",
+    "compat_features": [
+      "api.PerformanceResourceTiming.serverTiming",
+      "api.PerformanceServerTiming",
+      "api.PerformanceServerTiming.description",
+      "api.PerformanceServerTiming.duration",
+      "api.PerformanceServerTiming.name",
+      "api.PerformanceServerTiming.toJSON",
+      "http.headers.Server-Timing"
+    ],
+    "description": "The serverTiming property of the PerformanceResourceTiming API contains server timing information about network requests.",
+    "description_html": "The <code>serverTiming</code> property of the <code>PerformanceResourceTiming</code> API contains server timing information about network requests.",
+    "name": "Server timing",
+    "spec": "https://w3c.github.io/server-timing/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "65",
+        "chrome_android": "65",
+        "edge": "79",
+        "firefox": "61",
+        "firefox_android": "61",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.HTMLSlotElement.assign",
+      "api.ShadowRoot.slotAssignment"
+    ],
+    "description": "The assign() method for <slot> elements assigns nodes to the slot, as an alternative to using the slot and name HTML attributes. The nodes must be children of a shadow host and the shadow root must be created with the slotAssignment set to \"manual\". Also known as manual slot assignment.",
+    "description_html": "The <code>assign()</code> method for <code>&#x3C;slot></code> elements assigns nodes to the slot, as an alternative to using the <code>slot</code> and <code>name</code> HTML attributes. The nodes must be children of a shadow host and the shadow root must be created with the <code>slotAssignment</code> set to \"manual\". Also known as manual slot assignment.",
+    "name": "Imperative slot assignment",
+    "spec": "https://html.spec.whatwg.org/multipage/scripting.html#dom-slot-assign",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "86",
+        "chrome_android": "86",
+        "edge": "86",
+        "firefox": "92",
+        "firefox_android": "92",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.Document.hasStorageAccess",
+      "api.Document.requestStorageAccess"
+    ],
+    "description": "The document.requestStorageAccess() method allows content in iframes to request storing and reading cookies and other site data, while the document.hasStorageAccess() method checks if such access is granted.",
+    "description_html": "The <code>document.requestStorageAccess()</code> method allows content in iframes to request storing and reading cookies and other site data, while the <code>document.hasStorageAccess()</code> method checks if such access is granted.",
+    "name": "Storage access",
+    "spec": "https://privacycg.github.io/storage-access/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-05",
+      "support": {
+        "chrome": "119",
+        "chrome_android": "120",
+        "edge": "85",
+        "firefox": "65",
+        "firefox_android": "65",
+        "safari": "11.1",
+        "safari_ios": "11.3"
+      }
+    },
+    "usage_stats": [
+      "https://chromestatus.com/metrics/feature/timeline/popularity/3310",
+      "https://chromestatus.com/metrics/feature/timeline/popularity/3311"
+    ]
+  },
+  {
+    "caniuse": "streams",
+    "compat_features": [
+      "api.ByteLengthQueuingStrategy",
+      "api.ByteLengthQueuingStrategy.ByteLengthQueuingStrategy",
+      "api.ByteLengthQueuingStrategy.highWaterMark",
+      "api.ByteLengthQueuingStrategy.size",
+      "api.CountQueuingStrategy",
+      "api.CountQueuingStrategy.CountQueuingStrategy",
+      "api.CountQueuingStrategy.highWaterMark",
+      "api.CountQueuingStrategy.size",
+      "api.ReadableStream",
+      "api.ReadableStream.ReadableStream",
+      "api.ReadableStream.cancel",
+      "api.ReadableStream.getReader",
+      "api.ReadableStream.locked",
+      "api.ReadableStream.pipeThrough",
+      "api.ReadableStream.pipeTo",
+      "api.ReadableStream.tee",
+      "api.WritableStream",
+      "api.WritableStream.WritableStream",
+      "api.WritableStream.abort",
+      "api.WritableStream.getWriter",
+      "api.WritableStream.locked",
+      "api.WritableStreamDefaultController",
+      "api.WritableStreamDefaultController.error",
+      "api.WritableStreamDefaultWriter",
+      "api.WritableStreamDefaultWriter.abort",
+      "api.WritableStreamDefaultWriter.close",
+      "api.WritableStreamDefaultWriter.closed",
+      "api.WritableStreamDefaultWriter.desiredSize",
+      "api.WritableStreamDefaultWriter.ready",
+      "api.WritableStreamDefaultWriter.releaseLock",
+      "api.WritableStreamDefaultWriter.write"
+    ],
+    "description": "The streams API creates, composes, and consumes continuously generated data.",
+    "description_html": "The streams API creates, composes, and consumes continuously generated data.",
+    "name": "Streams",
+    "spec": "https://streams.spec.whatwg.org/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-06-28",
+      "support": {
+        "chrome": "59",
+        "chrome_android": "59",
+        "edge": "79",
+        "firefox": "102",
+        "firefox_android": "102",
+        "safari": "14.1",
+        "safari_ios": "14.5"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.structuredClone"
+    ],
+    "description": "The structuredClone() global method creates a deep copy of an object. Values that cannot be cloned can instead be transferred, making the original value no longer usable.",
+    "description_html": "The <code>structuredClone()</code> global method creates a deep copy of an object. Values that cannot be cloned can instead be transferred, making the original value no longer usable.",
+    "name": "structuredClone()",
+    "spec": "https://html.spec.whatwg.org/multipage/structured-data.html#structured-cloning",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "98",
+        "chrome_android": "98",
+        "edge": "98",
+        "firefox": "94",
+        "firefox_android": "94",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "caniuse": "css-subgrid",
+    "compat_features": [
+      "css.properties.grid-template-columns.subgrid",
+      "css.properties.grid-template-rows.subgrid"
+    ],
+    "description": "The subgrid value for the grid-template-columns and grid-template-rows properties allows a grid item to inherit the grid definition of its parent grid container.",
+    "description_html": "The <code>subgrid</code> value for the <code>grid-template-columns</code> and <code>grid-template-rows</code> properties allows a grid item to inherit the grid definition of its parent grid container.",
+    "name": "Subgrid",
+    "spec": "https://drafts.csswg.org/css-grid-2/#subgrids",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-09-15",
+      "support": {
+        "chrome": "117",
+        "chrome_android": "117",
+        "edge": "117",
+        "firefox": "71",
+        "firefox_android": "79",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/4680"
+  },
+  {
+    "compat_features": [
+      "css.properties.text-wrap.balance"
+    ],
+    "description": "The text-wrap: balance CSS declaration balances the length of each line when text is broken into multiple lines. Also known as headline balancing.",
+    "description_html": "The <code>text-wrap: balance</code> CSS declaration balances the length of each line when text is broken into multiple lines. Also known as headline balancing.",
+    "name": "text-wrap: balance",
+    "spec": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-style-balance",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-05-13",
+      "support": {
+        "chrome": "114",
+        "chrome_android": "114",
+        "edge": "114",
+        "firefox": "121",
+        "firefox_android": "121",
+        "safari": "17.5",
+        "safari_ios": "17.5"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/4673"
+  },
+  {
+    "compat_features": [
+      "css.properties.text-wrap.nowrap",
+      "css.properties.text-wrap.wrap"
+    ],
+    "description": "The text-wrap: nowrap CSS declaration prevents text breaking into multiple lines. Text that doesn't fit overflows instead.",
+    "description_html": "The <code>text-wrap: nowrap</code> CSS declaration prevents text breaking into multiple lines. Text that doesn't fit overflows instead.",
+    "name": "text-wrap: nowrap",
+    "spec": "https://drafts.csswg.org/css-text-4/#valdef-text-wrap-mode-nowrap",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-03-19",
+      "support": {
+        "chrome": "114",
+        "chrome_android": "114",
+        "edge": "114",
+        "firefox": "124",
+        "firefox_android": "124",
+        "safari": "17.4",
+        "safari_ios": "17.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.ArrayBuffer.transfer",
+      "javascript.builtins.ArrayBuffer.transferToFixedLength",
+      "javascript.builtins.ArrayBuffer.detached"
+    ],
+    "description": "The transfer() and transferToFixedLength() methods of ArrayBuffer move a buffer from one context to another (for example, to a worker).",
+    "description_html": "The <code>transfer()</code> and <code>transferToFixedLength()</code> methods of <code>ArrayBuffer</code> move a buffer from one context to another (for example, to a worker).",
+    "name": "Transferable ArrayBuffer",
+    "spec": "https://tc39.es/proposal-arraybuffer-transfer/#sec-arraybuffer.prototype.transfer",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2024-03-05",
+      "support": {
+        "chrome": "114",
+        "chrome_android": "114",
+        "edge": "114",
+        "firefox": "122",
+        "firefox_android": "122",
+        "safari": "17.4",
+        "safari_ios": "17.4"
+      }
+    }
+  },
+  {
+    "caniuse": "transforms3d",
+    "compat_features": [
+      "css.properties.backface-visibility",
+      "css.properties.perspective",
+      "css.properties.perspective.none",
+      "css.properties.perspective-origin",
+      "css.properties.perspective-origin.bottom",
+      "css.properties.perspective-origin.center",
+      "css.properties.perspective-origin.left",
+      "css.properties.perspective-origin.right",
+      "css.properties.perspective-origin.top",
+      "css.properties.transform.3d",
+      "css.properties.transform-style",
+      "css.types.transform-function.matrix3d",
+      "css.types.transform-function.perspective",
+      "css.types.transform-function.rotate3d",
+      "css.types.transform-function.rotateX",
+      "css.types.transform-function.rotateY",
+      "css.types.transform-function.rotateZ",
+      "css.types.transform-function.scale3d",
+      "css.types.transform-function.scaleZ",
+      "css.types.transform-function.translate3d",
+      "css.types.transform-function.translateZ"
+    ],
+    "description": "The transform CSS property and its 3D transform functions allow rotations and other transforms in three dimensions, including perspective transforms.",
+    "description_html": "The <code>transform</code> CSS property and its 3D transform functions allow rotations and other transforms in three dimensions, including perspective transforms.",
+    "name": "3D transforms",
+    "spec": "https://drafts.csswg.org/css-transforms-2/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "36",
+        "chrome_android": "36",
+        "edge": "12",
+        "firefox": "16",
+        "firefox_android": "16",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "html.global_attributes.translate",
+      "api.HTMLElement.translate"
+    ],
+    "description": "The translate HTML attribute marks whether an element's text should be translated.",
+    "description_html": "The <code>translate</code> HTML attribute marks whether an element's text should be translated.",
+    "name": "translate attribute",
+    "spec": "https://html.spec.whatwg.org/multipage/dom.html#attr-translate",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-14",
+      "support": {
+        "chrome": "19",
+        "chrome_android": "25",
+        "edge": "79",
+        "firefox": "111",
+        "firefox_android": "111",
+        "safari": "6",
+        "safari_ios": "6"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.acos",
+      "css.types.asin",
+      "css.types.atan",
+      "css.types.atan2",
+      "css.types.cos",
+      "css.types.sin",
+      "css.types.tan"
+    ],
+    "description": "The sin(), cos(), tan(), asin(), acos(), atan(), and atan2() CSS functions compute various trigonometric functions.",
+    "description_html": "The <code>sin()</code>, <code>cos()</code>, <code>tan()</code>, <code>asin()</code>, <code>acos()</code>, <code>atan()</code>, and <code>atan2()</code> CSS functions compute various trigonometric functions.",
+    "name": "sin(), cos(), tan(), asin(), acos(), atan(), and atan2()",
+    "spec": "https://drafts.csswg.org/css-values-4/#trig-funcs",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-13",
+      "support": {
+        "chrome": "111",
+        "chrome_android": "111",
+        "edge": "111",
+        "firefox": "108",
+        "firefox_android": "108",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.properties.display.multi-keyword_values"
+    ],
+    "description": "The display CSS property accepts multiple keyword values, such as inline flex or block flow, to explicitly set an element's inner and outer layout mode. Also known as 2-value, multi-keyword, or multiple value syntax.",
+    "description_html": "The <code>display</code> CSS property accepts multiple keyword values, such as <code>inline flex</code> or <code>block flow</code>, to explicitly set an element's inner and outer layout mode. Also known as 2-value, multi-keyword, or multiple value syntax.",
+    "name": "Two-value display property",
+    "spec": "https://drafts.csswg.org/css-display-3/#the-display-properties",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-07-21",
+      "support": {
+        "chrome": "115",
+        "chrome_android": "115",
+        "edge": "115",
+        "firefox": "70",
+        "firefox_android": "79",
+        "safari": "15",
+        "safari_ios": "15"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.URL.canParse_static"
+    ],
+    "description": "The URL.canParse() static method checks whether a URL can be parsed into a valid URL object. It's an alternative to calling new URL() in a try…catch statement.",
+    "description_html": "The <code>URL.canParse()</code> static method checks whether a URL can be parsed into a valid <code>URL</code> object. It's an alternative to calling <code>new URL()</code> in a <code>try…catch</code> statement.",
+    "name": "URL.canParse()",
+    "spec": "https://url.spec.whatwg.org/#dom-url-canparse",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-12-07",
+      "support": {
+        "chrome": "120",
+        "chrome_android": "120",
+        "edge": "120",
+        "firefox": "115",
+        "firefox_android": "115",
+        "safari": "17",
+        "safari_ios": "17"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.Navigator.userActivation",
+      "api.UserActivation",
+      "api.UserActivation.hasBeenActive",
+      "api.UserActivation.isActive"
+    ],
+    "description": "The navigator.userActivation API reveals whether the user has interacted with the page through an \"activation\" gesture such as a click, tap, or key press. User activation gated APIs (such as the fullscreen API) fail without user interaction, and this API allows you to predict such a failure.",
+    "description_html": "The <code>navigator.userActivation</code> API reveals whether the user has interacted with the page through an \"activation\" gesture such as a click, tap, or key press. User activation gated APIs (such as the fullscreen API) fail without user interaction, and this API allows you to predict such a failure.",
+    "name": "User activation",
+    "spec": "https://html.spec.whatwg.org/multipage/interaction.html#the-useractivation-interface",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-11-21",
+      "support": {
+        "chrome": "72",
+        "chrome_android": "72",
+        "edge": "79",
+        "firefox": "120",
+        "firefox_android": "120",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.selectors.user-invalid",
+      "css.selectors.user-valid"
+    ],
+    "description": "The :user-valid and :user-invalid pseudo-classes match form controls that have been marked as valid or invalid based on their validation constraints.",
+    "description_html": "The <code>:user-valid</code> and <code>:user-invalid</code> pseudo-classes match form controls that have been marked as valid or invalid based on their validation constraints.",
+    "name": ":user-valid and :user-invalid",
+    "spec": "https://drafts.csswg.org/selectors-4/#user-pseudos",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-11-02",
+      "support": {
+        "chrome": "119",
+        "chrome_android": "119",
+        "edge": "119",
+        "firefox": "88",
+        "firefox_android": "88",
+        "safari": "16.5",
+        "safari_ios": "16.5"
+      }
+    },
+    "usage_stats": [
+      "https://chromestatus.com/metrics/feature/timeline/popularity/4958",
+      "https://chromestatus.com/metrics/feature/timeline/popularity/4959"
+    ]
+  },
+  {
+    "alias": "viewport-relative-unit-variants",
+    "caniuse": "viewport-unit-variants",
+    "compat_features": [
+      "css.types.length.vb",
+      "css.types.length.vi",
+      "css.types.length.viewport_percentage_units_dynamic",
+      "css.types.length.viewport_percentage_units_large",
+      "css.types.length.viewport_percentage_units_small"
+    ],
+    "description": "The sv*, lv*, and dv* CSS viewport units are relative to the smallest, largest, and current (dynamic) viewport size. They are used to size elements in relation to the viewport's dimensions.",
+    "description_html": "The <code>sv*</code>, <code>lv*</code>, and <code>dv*</code> CSS viewport units are relative to the smallest, largest, and current (dynamic) viewport size. They are used to size elements in relation to the viewport's dimensions.",
+    "name": "Small, large, and dynamic viewport units",
+    "spec": [
+      "https://drafts.csswg.org/css-values-4/#viewport-variants",
+      "https://drafts.csswg.org/css-values-4/#viewport-relative-lengths"
+    ],
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-12-05",
+      "support": {
+        "chrome": "108",
+        "chrome_android": "108",
+        "edge": "108",
+        "firefox": "101",
+        "firefox_android": "101",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  },
+  {
+    "caniuse": "wasm-simd",
+    "compat_features": [
+      "webassembly.fixed-width-SIMD"
+    ],
+    "description": "The 128-bit SIMD (Single Instruction Multiple Data) extension to WebAssembly performs one instruction on multiple units of data, when running on hardware that supports such instructions. Also known as vector instructions.",
+    "description_html": "The 128-bit SIMD (Single Instruction Multiple Data) extension to WebAssembly performs one instruction on multiple units of data, when running on hardware that supports such instructions. Also known as vector instructions.",
+    "name": "WebAssembly SIMD",
+    "spec": "https://webassembly.github.io/spec/core/bikeshed/#vector-instructions",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-03-27",
+      "support": {
+        "chrome": "91",
+        "chrome_android": "91",
+        "edge": "91",
+        "firefox": "89",
+        "firefox_android": "89",
+        "safari": "16.4",
+        "safari_ios": "16.4"
+      }
+    }
+  },
+  {
+    "caniuse": "web-animation",
+    "compat_features": [
+      "api.Animation",
+      "api.Animation.Animation",
+      "api.Animation.cancel_event",
+      "api.Animation.cancel",
+      "api.Animation.commitStyles",
+      "api.Animation.currentTime",
+      "api.Animation.effect",
+      "api.Animation.finish",
+      "api.Animation.finished",
+      "api.Animation.finish_event",
+      "api.Animation.id",
+      "api.Animation.pause",
+      "api.Animation.pending",
+      "api.Animation.persist",
+      "api.Animation.play",
+      "api.Animation.playbackRate",
+      "api.Animation.playState",
+      "api.Animation.ready",
+      "api.Animation.remove_event",
+      "api.Animation.replaceState",
+      "api.Animation.reverse",
+      "api.Animation.startTime",
+      "api.Animation.timeline",
+      "api.Animation.updatePlaybackRate",
+      "api.AnimationTimeline",
+      "api.AnimationTimeline.currentTime",
+      "api.AnimationEffect",
+      "api.AnimationEffect.getComputedTiming",
+      "api.AnimationEffect.getTiming",
+      "api.AnimationEffect.updateTiming",
+      "api.AnimationPlaybackEvent",
+      "api.AnimationPlaybackEvent.AnimationPlaybackEvent",
+      "api.AnimationPlaybackEvent.currentTime",
+      "api.AnimationPlaybackEvent.timelineTime",
+      "api.KeyframeEffect",
+      "api.KeyframeEffect.KeyframeEffect",
+      "api.KeyframeEffect.composite",
+      "api.KeyframeEffect.getKeyframes",
+      "api.KeyframeEffect.pseudoElement",
+      "api.KeyframeEffect.setKeyframes",
+      "api.KeyframeEffect.target",
+      "api.DocumentTimeline",
+      "api.DocumentTimeline.DocumentTimeline",
+      "api.Document.getAnimations",
+      "api.Document.timeline",
+      "api.Element.animate"
+    ],
+    "description": "The web animations API allows you to animate and synchronize the animations of DOM elements.",
+    "description_html": "The web animations API allows you to animate and synchronize the animations of DOM elements.",
+    "name": "Web animations",
+    "spec": "https://drafts.csswg.org/web-animations-1/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-09-12",
+      "support": {
+        "chrome": "84",
+        "chrome_android": "84",
+        "edge": "84",
+        "firefox": "80",
+        "firefox_android": "80",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.Lock",
+      "api.Lock.mode",
+      "api.Lock.name",
+      "api.LockManager",
+      "api.LockManager.query",
+      "api.LockManager.request",
+      "api.Navigator.locks",
+      "api.WorkerNavigator.locks"
+    ],
+    "description": "The navigator.locks API coordinates work with shared resources through mutually exclusive ownership of a resource's name. Also known as web locks.",
+    "description_html": "The <code>navigator.locks</code> API coordinates work with shared resources through mutually exclusive ownership of a resource's name. Also known as web locks.",
+    "name": "Locks",
+    "spec": "https://w3c.github.io/web-locks/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-03-14",
+      "support": {
+        "chrome": "69",
+        "chrome_android": "69",
+        "edge": "79",
+        "firefox": "96",
+        "firefox_android": "96",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2375"
+  },
+  {
+    "compat_features": [
+      "api.AuthenticatorAttestationResponse.getAuthenticatorData",
+      "api.AuthenticatorAttestationResponse.getPublicKey",
+      "api.AuthenticatorAttestationResponse.getPublicKeyAlgorithm"
+    ],
+    "description": "The getAuthenticatorData(), getPublicKey(), and getPublicKeyAlgorithm() methods of AuthenticatorAttestationResponse access credential data inside attestationObject without the need to parse it.",
+    "description_html": "The <code>getAuthenticatorData()</code>, <code>getPublicKey()</code>, and <code>getPublicKeyAlgorithm()</code> methods of <code>AuthenticatorAttestationResponse</code> access credential data inside <code>attestationObject</code> without the need to parse it.",
+    "name": "Web authentication easy public key access",
+    "spec": "https://w3c.github.io/webauthn/#sctn-public-key-easy",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-10-24",
+      "support": {
+        "chrome": "85",
+        "chrome_android": "85",
+        "edge": "85",
+        "firefox": "119",
+        "firefox_android": "119",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.OES_draw_buffers_indexed",
+      "api.OES_draw_buffers_indexed.blendEquationiOES",
+      "api.OES_draw_buffers_indexed.blendEquationSeparateiOES",
+      "api.OES_draw_buffers_indexed.blendFunciOES",
+      "api.OES_draw_buffers_indexed.blendFuncSeparateiOES",
+      "api.OES_draw_buffers_indexed.colorMaskiOES",
+      "api.OES_draw_buffers_indexed.disableiOES",
+      "api.OES_draw_buffers_indexed.enableiOES"
+    ],
+    "description": "The OES_draw_buffers_indexed extension to WebGL allows you to control blending on a per-color basis when writing to multiple color buffers simultaneously.",
+    "description_html": "The <code>OES_draw_buffers_indexed</code> extension to WebGL allows you to control blending on a per-color basis when writing to multiple color buffers simultaneously.",
+    "name": "WebGL OES_draw_buffers_indexed extension",
+    "spec": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2022-12-13",
+      "support": {
+        "chrome": "100",
+        "chrome_android": "100",
+        "edge": "100",
+        "firefox": "108",
+        "firefox_android": "108",
+        "safari": "16",
+        "safari_ios": "16"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.RTCPeerConnection.sctp",
+      "api.RTCSctpTransport",
+      "api.RTCSctpTransport.maxChannels",
+      "api.RTCSctpTransport.maxMessageSize",
+      "api.RTCSctpTransport.state",
+      "api.RTCSctpTransport.statechange_event",
+      "api.RTCSctpTransport.transport"
+    ],
+    "description": "The sctp object on RTCPeerConnection represents the negotiated SCTP transport. SCTP (Stream Control Transmission Protocol) is the protocol that RTCDataChannel uses.",
+    "description_html": "The <code>sctp</code> object on <code>RTCPeerConnection</code> represents the negotiated SCTP transport. SCTP (Stream Control Transmission Protocol) is the protocol that <code>RTCDataChannel</code> uses.",
+    "name": "WebRTC SCTP information",
+    "spec": "https://w3c.github.io/webrtc-pc/#rtcsctptransport-interface",
+    "status": {
+      "baseline": "low",
+      "baseline_low_date": "2023-05-09",
+      "support": {
+        "chrome": "76",
+        "chrome_android": "76",
+        "edge": "79",
+        "firefox": "113",
+        "firefox_android": "113",
+        "safari": "15.4",
+        "safari_ios": "15.4"
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Index of Features</title>
+</head>
+<body>
+  <h1>Index of Features</h1>
+  <ul>
+    {% for status in statuses %}
+    <li>
+      <a href="{{ status }}.html">
+        {% if status == 'high' %}
+          Widely Available
+        {% elif status == 'low' %}
+          Newly Available
+        {% else %}
+          {{ status | capitalize }}
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

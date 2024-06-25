@@ -1,0 +1,20 @@
+{
+  "name": "baseline-data-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.mjs",
+    "clean": "rimraf out && rimraf src/data",
+    "serve": "serve out"
+  },
+  "keywords": [],
+  "author": "Carlos Araya <carlos.araya@gmail.com> (https://publishing-project.rivendellweb.net/)",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "nunjucks": "^3.2.4",
+    "rimraf": "^5.0.7",
+    "serve": "^14.2.3"
+  }
+}

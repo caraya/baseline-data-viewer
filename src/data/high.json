@@ -1,0 +1,2481 @@
+[
+  {
+    "compat_features": [
+      "api.fetch.init_signal_parameter",
+      "api.Request.signal"
+    ],
+    "description": "If you construct a fetch request with an AbortSignal, you can cancel the request.",
+    "description_html": "If you construct a fetch request with an <code>AbortSignal</code>, you can cancel the request.",
+    "name": "Abortable fetch",
+    "spec": "https://fetch.spec.whatwg.org/#ref-for-dom-request-signal%E2%91%A1",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2021-09-25",
+      "baseline_low_date": "2019-03-25",
+      "support": {
+        "chrome": "66",
+        "chrome_android": "66",
+        "edge": "16",
+        "firefox": "57",
+        "firefox_android": "57",
+        "safari": "12.1",
+        "safari_ios": "12.2"
+      }
+    }
+  },
+  {
+    "caniuse": "abortcontroller",
+    "compat_features": [
+      "api.AbortController",
+      "api.AbortController.AbortController",
+      "api.AbortController.abort",
+      "api.AbortController.signal",
+      "api.AbortSignal",
+      "api.AbortSignal.abort_event",
+      "api.AbortSignal.aborted"
+    ],
+    "description": "The AbortController and AbortSignal APIs allow you to cancel an ongoing operation, such as a fetch() request.",
+    "description_html": "The <code>AbortController</code> and <code>AbortSignal</code> APIs allow you to cancel an ongoing operation, such as a <code>fetch()</code> request.",
+    "name": "AbortController and AbortSignal",
+    "spec": "https://dom.spec.whatwg.org/#aborting-ongoing-activities",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2021-09-25",
+      "baseline_low_date": "2019-03-25",
+      "support": {
+        "chrome": "66",
+        "chrome_android": "66",
+        "edge": "16",
+        "firefox": "57",
+        "firefox_android": "57",
+        "safari": "12.1",
+        "safari_ios": "12.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array",
+      "javascript.builtins.Array.Array",
+      "javascript.builtins.Array.concat",
+      "javascript.builtins.Array.join",
+      "javascript.builtins.Array.length",
+      "javascript.builtins.Array.pop",
+      "javascript.builtins.Array.push",
+      "javascript.builtins.Array.reverse",
+      "javascript.builtins.Array.shift",
+      "javascript.builtins.Array.slice",
+      "javascript.builtins.Array.sort",
+      "javascript.builtins.Array.toLocaleString",
+      "javascript.builtins.Array.toString",
+      "javascript.builtins.Array.unshift",
+      "javascript.grammar.array_literals"
+    ],
+    "description": "Arrays are ordered lists of JavaScript values.",
+    "description_html": "Arrays are ordered lists of JavaScript values.",
+    "name": "Array (initial support)",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array-objects",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array-constructor",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.concat",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.join",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-properties-of-array-instances-length",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.pop",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.push",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reverse",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.shift",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.slice",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.sort",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tolocalestring",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tostring",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.unshift",
+      "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-array-initializer"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "1",
+        "firefox_android": "4",
+        "safari": "1",
+        "safari_ios": "1"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.copyWithin",
+      "javascript.builtins.TypedArray.copyWithin"
+    ],
+    "description": "The copyWithin() method of arrays and typed arrays shifts or copies items of an array to another index of the array without changing its length.",
+    "description_html": "The <code>copyWithin()</code> method of arrays and typed arrays shifts or copies items of an array to another index of the array without changing its length.",
+    "name": "Array copyWithin()",
+    "spec": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.copywithin",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-03-20",
+      "baseline_low_date": "2016-09-20",
+      "support": {
+        "chrome": "45",
+        "chrome_android": "45",
+        "edge": "12",
+        "firefox": "32",
+        "firefox_android": "32",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.fill",
+      "javascript.builtins.TypedArray.fill"
+    ],
+    "description": "The fill() method of arrays and typed arrays sets all or some items of an array to a given a value.",
+    "description_html": "The <code>fill()</code> method of arrays and typed arrays sets all or some items of an array to a given a value.",
+    "name": "Array fill()",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.fill",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.fill"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-03-01",
+      "baseline_low_date": "2015-09-01",
+      "support": {
+        "chrome": "45",
+        "chrome_android": "45",
+        "edge": "12",
+        "firefox": "31",
+        "firefox_android": "31",
+        "safari": "8",
+        "safari_ios": "8"
+      }
+    }
+  },
+  {
+    "caniuse": [
+      "array-find",
+      "array-find-index"
+    ],
+    "compat_features": [
+      "javascript.builtins.Array.find",
+      "javascript.builtins.Array.findIndex",
+      "javascript.builtins.TypedArray.find",
+      "javascript.builtins.TypedArray.findIndex"
+    ],
+    "description": "The find() and findIndex() methods of arrays and typed arrays search an array for the first item that satisfies a test function.",
+    "description_html": "The <code>find()</code> and <code>findIndex()</code> methods of arrays and typed arrays search an array for the first item that satisfies a test function.",
+    "name": "Array find() and findIndex()",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.find",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.findindex",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.find",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.findindex"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-03-01",
+      "baseline_low_date": "2015-09-01",
+      "support": {
+        "chrome": "45",
+        "chrome_android": "45",
+        "edge": "12",
+        "firefox": "25",
+        "firefox_android": "4",
+        "safari": "8",
+        "safari_ios": "8"
+      }
+    }
+  },
+  {
+    "caniuse": "array-flat",
+    "compat_features": [
+      "javascript.builtins.Array.flat",
+      "javascript.builtins.Array.flatMap"
+    ],
+    "description": "The flat() and flatMap() methods for arrays creates a new array such that each nested array item is concatenated into it.",
+    "description_html": "The <code>flat()</code> and <code>flatMap()</code> methods for arrays creates a new array such that each nested array item is concatenated into it.",
+    "name": "Array flat() and flatMap()",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.flat",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.flatmap"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "69",
+        "chrome_android": "69",
+        "edge": "79",
+        "firefox": "62",
+        "firefox_android": "62",
+        "safari": "12",
+        "safari_ios": "12"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.from",
+      "javascript.builtins.TypedArray.from"
+    ],
+    "description": "The Array.from() and typed array .from() static methods copy items from an iterable or array-like object to make a new array.",
+    "description_html": "The <code>Array.from()</code> and typed array <code>.from()</code> static methods copy items from an iterable or array-like object to make a new array.",
+    "name": "Array.from()",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.from",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.of"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-03-20",
+      "baseline_low_date": "2016-09-20",
+      "support": {
+        "chrome": "45",
+        "chrome_android": "45",
+        "edge": "12",
+        "firefox": "38",
+        "firefox_android": "38",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.includes",
+      "javascript.builtins.TypedArray.includes"
+    ],
+    "description": "The includes() method of arrays and typed arrays returns whether a given value appears in the array.",
+    "description_html": "The <code>includes()</code> method of arrays and typed arrays returns whether a given value appears in the array.",
+    "name": "Array includes()",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.includes",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.includes"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-03-20",
+      "baseline_low_date": "2016-09-20",
+      "support": {
+        "chrome": "47",
+        "chrome_android": "47",
+        "edge": "14",
+        "firefox": "43",
+        "firefox_android": "43",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.isArray"
+    ],
+    "description": "The Array.isArray() static method checks whether a value is an array.",
+    "description_html": "The <code>Array.isArray()</code> static method checks whether a value is an array.",
+    "name": "Array.isArray()",
+    "spec": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.isarray",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "4",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "4",
+        "firefox_android": "4",
+        "safari": "5",
+        "safari_ios": "5"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.every",
+      "javascript.builtins.Array.filter",
+      "javascript.builtins.Array.forEach",
+      "javascript.builtins.Array.indexOf",
+      "javascript.builtins.Array.lastIndexOf",
+      "javascript.builtins.Array.map",
+      "javascript.builtins.Array.reduce",
+      "javascript.builtins.Array.reduceRight",
+      "javascript.builtins.Array.some"
+    ],
+    "description": "Array iteration methods",
+    "description_html": "Array iteration methods",
+    "name": "Array iteration methods",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.every",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.filter",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.indexof",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.lastindexof",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.map",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduce",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.reduceright",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.some"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "3",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "3",
+        "firefox_android": "4",
+        "safari": "4",
+        "safari_ios": "3.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.@@iterator",
+      "javascript.builtins.Array.entries",
+      "javascript.builtins.Array.keys",
+      "javascript.builtins.Array.values"
+    ],
+    "description": "Arrays are iterable with the for…of statement and enumerable with the methods entries(), keys(), and values().",
+    "description_html": "Arrays are iterable with the <code>for…of</code> statement and enumerable with the methods <code>entries()</code>, <code>keys()</code>, and <code>values()</code>.",
+    "name": "Array iterators",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype-@@iterator",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.entries",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.keys",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.values"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-03-20",
+      "baseline_low_date": "2016-09-20",
+      "support": {
+        "chrome": "38",
+        "chrome_android": "38",
+        "edge": "12",
+        "firefox": "36",
+        "firefox_android": "36",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.of",
+      "javascript.builtins.TypedArray.of"
+    ],
+    "description": "The Array.of() and typed array .of() static methods create new arrays from the values of any number of arguments.",
+    "description_html": "The <code>Array.of()</code> and typed array <code>.of()</code> static methods create new arrays from the values of any number of arguments.",
+    "name": "Array.of()",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.of",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.of"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-03-20",
+      "baseline_low_date": "2016-09-20",
+      "support": {
+        "chrome": "45",
+        "chrome_android": "39",
+        "edge": "12",
+        "firefox": "25",
+        "firefox_android": "25",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.splice"
+    ],
+    "description": "The array splice() method changes an array in-place. You can use it to delete items, overwrite items, or insert items, starting from an index.",
+    "description_html": "The array <code>splice()</code> method changes an array in-place. You can use it to delete items, overwrite items, or insert items, starting from an index.",
+    "name": "Array splice()",
+    "spec": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.splice",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "1",
+        "firefox_android": "4",
+        "safari": "1",
+        "safari_ios": "1"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.properties.aspect-ratio",
+      "html.elements.img.aspect_ratio_computed_from_attributes",
+      "html.elements.video.aspect_ratio_computed_from_attributes"
+    ],
+    "description": "The aspect-ratio CSS property controls the width-to-height ratio of elements. For <img> and <video> elements, the width and height attributes used together with height: auto control the aspect ratio while the image/video is loading.",
+    "description_html": "The <code>aspect-ratio</code> CSS property controls the width-to-height ratio of elements. For <code>&#x3C;img></code> and <code>&#x3C;video></code> elements, the <code>width</code> and <code>height</code> attributes used together with <code>height: auto</code> control the aspect ratio while the image/video is loading.",
+    "name": "aspect-ratio",
+    "spec": "https://drafts.csswg.org/css-sizing-4/#aspect-ratio",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2024-03-20",
+      "baseline_low_date": "2021-09-20",
+      "support": {
+        "chrome": "88",
+        "chrome_android": "88",
+        "edge": "88",
+        "firefox": "89",
+        "firefox_android": "89",
+        "safari": "15",
+        "safari_ios": "15"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/657"
+  },
+  {
+    "caniuse": "async-functions",
+    "compat_features": [
+      "javascript.builtins.AsyncFunction",
+      "javascript.builtins.AsyncFunction.AsyncFunction",
+      "javascript.operators.async_function",
+      "javascript.operators.await",
+      "javascript.statements.async_function"
+    ],
+    "description": "The async and await keywords allow you to use the asynchronous, promise-based behavior of a function without using promise chains.",
+    "description_html": "The <code>async</code> and <code>await</code> keywords allow you to use the asynchronous, promise-based behavior of a function without using promise chains.",
+    "name": "Async functions",
+    "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-async-function-definitions",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-10-05",
+      "baseline_low_date": "2017-04-05",
+      "support": {
+        "chrome": "55",
+        "chrome_android": "55",
+        "edge": "15",
+        "firefox": "52",
+        "firefox_android": "52",
+        "safari": "10.1",
+        "safari_ios": "10.3"
+      }
+    }
+  },
+  {
+    "caniuse": "autofocus",
+    "compat_features": [
+      "api.HTMLElement.autofocus",
+      "api.MathMLElement.autofocus",
+      "api.SVGElement.autofocus",
+      "html.global_attributes.autofocus"
+    ],
+    "description": "The autofocus HTML attribute gives focus to an element on page load.",
+    "description_html": "The <code>autofocus</code> HTML attribute gives focus to an element on page load.",
+    "name": "Autofocus",
+    "spec": "https://html.spec.whatwg.org/multipage/interaction.html#the-autofocus-attribute",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "1",
+        "firefox_android": "4",
+        "safari": "4",
+        "safari_ios": "3.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.CustomElementRegistry",
+      "api.CustomElementRegistry.define",
+      "api.Window.customElements",
+      "css.selectors.defined"
+    ],
+    "description": "Autonomous custom elements are HTML elements with a hyphenated tag name (like <example-element>) that have behaviors you define.",
+    "description_html": "Autonomous custom elements are HTML elements with a hyphenated tag name (like <code>&#x3C;example-element></code>) that have behaviors you define.",
+    "name": "Autonomous custom elements",
+    "spec": "https://html.spec.whatwg.org/multipage/custom-elements.html#autonomous-custom-element",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "54",
+        "chrome_android": "54",
+        "edge": "79",
+        "firefox": "63",
+        "firefox_android": "63",
+        "safari": "10.1",
+        "safari_ios": "10.3"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.properties.background-clip",
+      "css.properties.background-clip.border-box",
+      "css.properties.background-clip.content-box",
+      "css.properties.background-clip.padding-box"
+    ],
+    "description": "The background-clip CSS property sets the extent of the background: the padding box, the content box, or the default border box.",
+    "description_html": "The <code>background-clip</code> CSS property sets the extent of the background: the padding box, the content box, or the default border box.",
+    "name": "background-clip",
+    "spec": "https://drafts.csswg.org/css-backgrounds-3/#background-clip",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "4",
+        "firefox_android": "4",
+        "safari": "5",
+        "safari_ios": "5"
+      }
+    }
+  },
+  {
+    "caniuse": "bigint",
+    "compat_features": [
+      "javascript.builtins.BigInt",
+      "javascript.builtins.BigInt.BigInt",
+      "javascript.builtins.BigInt.asIntN",
+      "javascript.builtins.BigInt.asUintN",
+      "javascript.builtins.BigInt.toLocaleString",
+      "javascript.builtins.BigInt.toString",
+      "javascript.builtins.BigInt.valueOf"
+    ],
+    "description": "The BigInt JavaScript type represents integers of any size, including integers too large for the primitive Number type.",
+    "description_html": "The <code>BigInt</code> JavaScript type represents integers of any size, including integers too large for the primitive <code>Number</code> type.",
+    "name": "BigInt",
+    "spec": "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-bigint-objects",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-03-16",
+      "baseline_low_date": "2020-09-16",
+      "support": {
+        "chrome": "67",
+        "chrome_android": "67",
+        "edge": "79",
+        "firefox": "68",
+        "firefox_android": "68",
+        "safari": "14",
+        "safari_ios": "14"
+      }
+    }
+  },
+  {
+    "caniuse": "border-image",
+    "compat_features": [
+      "css.properties.border-image",
+      "css.properties.border-image.fill",
+      "css.properties.border-image.gradient",
+      "css.properties.border-image.optional_border_image_slice",
+      "css.properties.border-image-outset",
+      "css.properties.border-image-repeat",
+      "css.properties.border-image-repeat.round",
+      "css.properties.border-image-repeat.space",
+      "css.properties.border-image-slice",
+      "css.properties.border-image-source",
+      "css.properties.border-image-width"
+    ],
+    "description": "The border-image CSS property draws an image around an element.",
+    "description_html": "The <code>border-image</code> CSS property draws an image around an element.",
+    "name": "Border images",
+    "spec": "https://drafts.csswg.org/css-backgrounds-3/#border-images",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-08-01",
+      "baseline_low_date": "2017-02-01",
+      "support": {
+        "chrome": "56",
+        "chrome_android": "56",
+        "edge": "12",
+        "firefox": "50",
+        "firefox_android": "50",
+        "safari": "9.1",
+        "safari_ios": "9.3"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/43"
+  },
+  {
+    "caniuse": "calc",
+    "compat_features": [
+      "css.types.calc"
+    ],
+    "description": "The calc() CSS function computes mathematical expressions such a calc(100%/3 - 1em).",
+    "description_html": "The <code>calc()</code> CSS function computes mathematical expressions such a <code>calc(100%/3 - 1em)</code>.",
+    "name": "calc()",
+    "spec": "https://drafts.csswg.org/css-values-3/#calc-notation",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "26",
+        "chrome_android": "28",
+        "edge": "12",
+        "firefox": "16",
+        "firefox_android": "16",
+        "safari": "7",
+        "safari_ios": "7"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.CanvasRenderingContext2D.fillText",
+      "api.CanvasRenderingContext2D.measureText",
+      "api.CanvasRenderingContext2D.strokeText",
+      "api.CanvasRenderingContext2D.textAlign",
+      "api.CanvasRenderingContext2D.textBaseline",
+      "api.TextMetrics",
+      "api.TextMetrics.width"
+    ],
+    "description": "The fillText() and  strokeText() methods draw text to a 2D canvas. The measureText() method measures the width and other metrics which can be used to position the text.",
+    "description_html": "The <code>fillText()</code> and  <code>strokeText()</code> methods draw text to a 2D canvas. The <code>measureText()</code> method measures the width and other metrics which can be used to position the text.",
+    "name": "Canvas text metrics",
+    "spec": "https://html.spec.whatwg.org/multipage/canvas.html#drawing-text-to-the-bitmap",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "2",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "3.5",
+        "firefox_android": "31",
+        "safari": "4",
+        "safari_ios": "3.2"
+      }
+    }
+  },
+  {
+    "caniuse": "es6-class",
+    "compat_features": [
+      "javascript.classes",
+      "javascript.classes.constructor",
+      "javascript.classes.extends",
+      "javascript.classes.static",
+      "javascript.operators.super",
+      "javascript.statements.class"
+    ],
+    "description": "Classes are an object-oriented syntax for JavaScript prototypes.",
+    "description_html": "Classes are an object-oriented syntax for JavaScript prototypes.",
+    "name": "Classes",
+    "spec": "https://tc39.es/ecma262/multipage/ecmascript-language-functions-and-classes.html#sec-class-definitions",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-09-27",
+      "baseline_low_date": "2017-03-27",
+      "support": {
+        "chrome": "42",
+        "chrome_android": "42",
+        "edge": "13",
+        "firefox": "45",
+        "firefox_android": "45",
+        "safari": "10.1",
+        "safari_ios": "10.3"
+      }
+    }
+  },
+  {
+    "caniuse": "css-conic-gradients",
+    "compat_features": [
+      "css.types.image.gradient.conic-gradient",
+      "css.types.image.gradient.conic-gradient.doubleposition",
+      "css.types.image.gradient.repeating-conic-gradient"
+    ],
+    "description": "The conic-gradient() and repeating-conic-gradient() CSS functions create backgrounds that progress between two or more colors around a center point.",
+    "description_html": "The <code>conic-gradient()</code> and <code>repeating-conic-gradient()</code> CSS functions create backgrounds that progress between two or more colors around a center point.",
+    "name": "Conic gradients",
+    "spec": "https://drafts.csswg.org/css-images-4/#conic-gradients",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-05-17",
+      "baseline_low_date": "2020-11-17",
+      "support": {
+        "chrome": "72",
+        "chrome_android": "72",
+        "edge": "79",
+        "firefox": "83",
+        "firefox_android": "83",
+        "safari": "12.1",
+        "safari_ios": "12.2"
+      }
+    }
+  },
+  {
+    "caniuse": "constraint-validation",
+    "compat_features": [
+      "api.HTMLButtonElement.checkValidity",
+      "api.HTMLButtonElement.reportValidity",
+      "api.HTMLButtonElement.setCustomValidity",
+      "api.HTMLButtonElement.validationMessage",
+      "api.HTMLButtonElement.validity",
+      "api.HTMLButtonElement.willValidate",
+      "api.HTMLFieldSetElement.checkValidity",
+      "api.HTMLFieldSetElement.reportValidity",
+      "api.HTMLFieldSetElement.setCustomValidity",
+      "api.HTMLFieldSetElement.validationMessage",
+      "api.HTMLFieldSetElement.validity",
+      "api.HTMLFieldSetElement.willValidate",
+      "api.HTMLFormElement.checkValidity",
+      "api.HTMLFormElement.reportValidity",
+      "api.HTMLInputElement.checkValidity",
+      "api.HTMLInputElement.reportValidity",
+      "api.HTMLInputElement.setCustomValidity",
+      "api.HTMLInputElement.validationMessage",
+      "api.HTMLInputElement.validity",
+      "api.HTMLInputElement.willValidate",
+      "api.HTMLObjectElement.checkValidity",
+      "api.HTMLObjectElement.reportValidity",
+      "api.HTMLObjectElement.setCustomValidity",
+      "api.HTMLObjectElement.validationMessage",
+      "api.HTMLObjectElement.validity",
+      "api.HTMLObjectElement.willValidate",
+      "api.HTMLOutputElement.checkValidity",
+      "api.HTMLOutputElement.reportValidity",
+      "api.HTMLOutputElement.setCustomValidity",
+      "api.HTMLOutputElement.validationMessage",
+      "api.HTMLOutputElement.validity",
+      "api.HTMLOutputElement.willValidate",
+      "api.HTMLSelectElement.checkValidity",
+      "api.HTMLSelectElement.reportValidity",
+      "api.HTMLSelectElement.setCustomValidity",
+      "api.HTMLSelectElement.validationMessage",
+      "api.HTMLSelectElement.validity",
+      "api.HTMLSelectElement.willValidate",
+      "api.HTMLTextAreaElement.checkValidity",
+      "api.HTMLTextAreaElement.reportValidity",
+      "api.HTMLTextAreaElement.setCustomValidity",
+      "api.HTMLTextAreaElement.validationMessage",
+      "api.HTMLTextAreaElement.validity",
+      "api.HTMLTextAreaElement.willValidate",
+      "api.ValidityState",
+      "api.ValidityState.badInput",
+      "api.ValidityState.customError",
+      "api.ValidityState.patternMismatch",
+      "api.ValidityState.rangeOverflow",
+      "api.ValidityState.rangeUnderflow",
+      "api.ValidityState.stepMismatch",
+      "api.ValidityState.tooLong",
+      "api.ValidityState.tooShort",
+      "api.ValidityState.typeMismatch",
+      "api.ValidityState.valid",
+      "api.ValidityState.valueMissing"
+    ],
+    "description": "Methods that validate form controls before submission, such as checkValidity(), reportValidity() and setCustomValidity().",
+    "description_html": "Methods that validate form controls before submission, such as <code>checkValidity()</code>, <code>reportValidity()</code> and <code>setCustomValidity()</code>.",
+    "name": "Constraint validation API",
+    "spec": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#the-constraint-validation-api",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2021-06-11",
+      "baseline_low_date": "2018-12-11",
+      "support": {
+        "chrome": "40",
+        "chrome_android": "40",
+        "edge": "18",
+        "firefox": "51",
+        "firefox_android": "64",
+        "safari": "10.1",
+        "safari_ios": "10.3"
+      }
+    }
+  },
+  {
+    "caniuse": "css-variables",
+    "compat_features": [
+      "css.properties.custom-property",
+      "css.properties.custom-property.var"
+    ],
+    "description": "Custom properties are CSS properties prefixed with -- that set values you can reuse with the var() function. For example, you can set a --key-color property to reuse as border-color: var(--key-color). Also known as CSS variables.",
+    "description_html": "Custom properties are CSS properties prefixed with <code>--</code> that set values you can reuse with the <code>var()</code> function. For example, you can set a <code>--key-color</code> property to reuse as <code>border-color: var(--key-color)</code>. Also known as CSS variables.",
+    "name": "Custom properties",
+    "spec": "https://drafts.csswg.org/css-variables-1/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-10-05",
+      "baseline_low_date": "2017-04-05",
+      "support": {
+        "chrome": "49",
+        "chrome_android": "49",
+        "edge": "15",
+        "firefox": "31",
+        "firefox_android": "31",
+        "safari": "9.1",
+        "safari_ios": "9.3"
+      }
+    }
+  },
+  {
+    "caniuse": "css-default-pseudo",
+    "compat_features": [
+      "css.selectors.default"
+    ],
+    "description": "The :default CSS pseudo-class matches the default element in a group of related form controls, such as checkboxes and radio buttons with the checked attribute.",
+    "description_html": "The <code>:default</code> CSS pseudo-class matches the default element in a group of related form controls, such as checkboxes and radio buttons with the <code>checked</code> attribute.",
+    "name": ":default",
+    "spec": "https://drafts.csswg.org/selectors-4/#the-default-pseudo",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "10",
+        "chrome_android": "18",
+        "edge": "79",
+        "firefox": "4",
+        "firefox_android": "4",
+        "safari": "5",
+        "safari_ios": "5"
+      }
+    }
+  },
+  {
+    "caniuse": "details",
+    "compat_features": [
+      "api.HTMLDetailsElement",
+      "api.HTMLDetailsElement.open",
+      "html.elements.details",
+      "html.elements.details.open"
+    ],
+    "description": "The <details> element is a disclosure widget which can be expanded to reveal additional content. When closed, only the nested <summary> element is visible.",
+    "description_html": "The <code>&#x3C;details></code> element is a disclosure widget which can be expanded to reveal additional content. When closed, only the nested <code>&#x3C;summary></code> element is visible.",
+    "name": "<details>",
+    "spec": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "12",
+        "chrome_android": "18",
+        "edge": "79",
+        "firefox": "49",
+        "firefox_android": "49",
+        "safari": "6",
+        "safari_ios": "6"
+      }
+    }
+  },
+  {
+    "caniuse": "fetch",
+    "compat_features": [
+      "api.Headers",
+      "api.Headers.Headers",
+      "api.Headers.append",
+      "api.Headers.delete",
+      "api.Headers.get",
+      "api.Headers.has",
+      "api.Headers.set",
+      "api.Request",
+      "api.Request.Request",
+      "api.Request.arrayBuffer",
+      "api.Request.blob",
+      "api.Request.bodyUsed",
+      "api.Request.clone",
+      "api.Request.credentials",
+      "api.Request.headers",
+      "api.Request.json",
+      "api.Request.method",
+      "api.Request.mode",
+      "api.Request.text",
+      "api.Request.url",
+      "api.Response",
+      "api.Response.Response",
+      "api.Response.arrayBuffer",
+      "api.Response.blob",
+      "api.Response.bodyUsed",
+      "api.Response.clone",
+      "api.Response.headers",
+      "api.Response.json",
+      "api.Response.ok",
+      "api.Response.status",
+      "api.Response.statusText",
+      "api.Response.text",
+      "api.Response.type",
+      "api.Response.url",
+      "api.fetch"
+    ],
+    "description": "The fetch() method makes asynchronous HTTP requests.",
+    "description_html": "The <code>fetch()</code> method makes asynchronous HTTP requests.",
+    "name": "Fetch (initial support)",
+    "spec": "https://fetch.spec.whatwg.org/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-09-27",
+      "baseline_low_date": "2017-03-27",
+      "support": {
+        "chrome": "42",
+        "chrome_android": "42",
+        "edge": "14",
+        "firefox": "39",
+        "firefox_android": "39",
+        "safari": "10.1",
+        "safari_ios": "10.3"
+      }
+    }
+  },
+  {
+    "caniuse": "flexbox",
+    "compat_features": [
+      "css.properties.align-content.flex_context",
+      "css.properties.align-content.flex_context.stretch",
+      "css.properties.align-items.flex_context",
+      "css.properties.align-items.flex_context.baseline",
+      "css.properties.align-self.flex_context",
+      "css.properties.align-self.flex_context.baseline",
+      "css.properties.align-self.flex_context.stretch",
+      "css.properties.display.flex",
+      "css.properties.display.inline-flex",
+      "css.properties.flex",
+      "css.properties.flex-basis",
+      "css.properties.flex-basis.auto",
+      "css.properties.flex-direction",
+      "css.properties.flex-flow",
+      "css.properties.flex-grow",
+      "css.properties.flex-shrink",
+      "css.properties.flex-wrap",
+      "css.properties.justify-content.flex_context",
+      "css.properties.justify-content.flex_context.stretch",
+      "css.properties.justify-items.flex_context",
+      "css.properties.justify-self.flex_context",
+      "css.properties.order",
+      "css.properties.place-content.flex_context",
+      "css.properties.place-items.flex_context",
+      "css.properties.place-self.flex_context"
+    ],
+    "description": "Flexbox is a one-dimensional layout system, which places content either horizontally or vertically, with optional wrapping.",
+    "description_html": "Flexbox is a one-dimensional layout system, which places content either horizontally or vertically, with optional wrapping.",
+    "name": "Flexbox",
+    "spec": "https://drafts.csswg.org/css-flexbox-1/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-03-22",
+      "baseline_low_date": "2020-09-22",
+      "support": {
+        "chrome": "59",
+        "chrome_android": "59",
+        "edge": "79",
+        "firefox": "81",
+        "firefox_android": "81",
+        "safari": "11",
+        "safari_ios": "11"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/1692"
+  },
+  {
+    "caniuse": "flexbox-gap",
+    "compat_features": [
+      "css.properties.column-gap.flex_context",
+      "css.properties.gap.flex_context",
+      "css.properties.row-gap.flex_context"
+    ],
+    "description": "The gap CSS property in a flexbox layout sets the size of the space between items.",
+    "description_html": "The <code>gap</code> CSS property in a flexbox layout sets the size of the space between items.",
+    "name": "Flexbox gap",
+    "spec": "https://drafts.csswg.org/css-align-3/#gaps",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-10-26",
+      "baseline_low_date": "2021-04-26",
+      "support": {
+        "chrome": "84",
+        "chrome_android": "84",
+        "edge": "84",
+        "firefox": "63",
+        "firefox_android": "63",
+        "safari": "14.1",
+        "safari_ios": "14.5"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/3307"
+  },
+  {
+    "alias": "fonts",
+    "caniuse": "fontface",
+    "compat_features": [
+      "css.at-rules.font-face",
+      "css.at-rules.font-face.WOFF",
+      "css.at-rules.font-face.WOFF_2",
+      "css.at-rules.font-face.font-family",
+      "css.at-rules.font-face.src"
+    ],
+    "description": "The @font-face CSS at-rule creates a custom font-family value. The at-rule's descriptors set the font's name, source, and various display settings.",
+    "description_html": "The <code>@font-face</code> CSS at-rule creates a custom <code>font-family</code> value. The at-rule's descriptors set the font's name, source, and various display settings.",
+    "name": "@font-face",
+    "spec": "https://drafts.csswg.org/css-fonts-5/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-03-20",
+      "baseline_low_date": "2016-09-20",
+      "support": {
+        "chrome": "36",
+        "chrome_android": "36",
+        "edge": "14",
+        "firefox": "39",
+        "firefox_android": "39",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.properties.font-optical-sizing"
+    ],
+    "description": "The font-optical-sizing CSS property sets whether text rendering is optimized for viewing at different sizes.",
+    "description_html": "The <code>font-optical-sizing</code> CSS property sets whether text rendering is optimized for viewing at different sizes.",
+    "name": "font-optical-sizing",
+    "spec": "https://drafts.csswg.org/css-fonts-4/#font-optical-sizing-def",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-06-17",
+      "baseline_low_date": "2019-12-17",
+      "support": {
+        "chrome": "79",
+        "chrome_android": "79",
+        "edge": "17",
+        "firefox": "62",
+        "firefox_android": "62",
+        "safari": "11",
+        "safari_ios": "11"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/647"
+  },
+  {
+    "caniuse": "css-grid",
+    "compat_features": [
+      "css.properties.align-content.grid_context",
+      "css.properties.align-items.grid_context",
+      "css.properties.align-items.grid_context.start_end",
+      "css.properties.align-self.grid_context",
+      "css.properties.column-gap.grid_context",
+      "css.properties.display.grid",
+      "css.properties.display.inline-grid",
+      "css.properties.gap.grid_context",
+      "css.properties.gap.grid_context.calc_values",
+      "css.properties.gap.grid_context.percentage_values",
+      "css.properties.grid",
+      "css.properties.grid-area",
+      "css.properties.grid-auto-columns",
+      "css.properties.grid-auto-flow",
+      "css.properties.grid-auto-rows",
+      "css.properties.grid-column",
+      "css.properties.grid-column-end",
+      "css.properties.grid-column-start",
+      "css.properties.grid-row",
+      "css.properties.grid-row-end",
+      "css.properties.grid-row-start",
+      "css.properties.grid-template",
+      "css.properties.grid-template-areas",
+      "css.properties.grid-template-columns",
+      "css.properties.grid-template-columns.fit-content",
+      "css.properties.grid-template-columns.minmax",
+      "css.properties.grid-template-columns.repeat",
+      "css.properties.grid-template-rows",
+      "css.properties.grid-template-rows.fit-content",
+      "css.properties.grid-template-rows.minmax",
+      "css.properties.grid-template-rows.repeat",
+      "css.properties.justify-content.grid_context",
+      "css.properties.justify-items.grid_context",
+      "css.properties.justify-self.grid_context",
+      "css.properties.place-content.grid_context",
+      "css.properties.place-items.grid_context",
+      "css.properties.place-self.grid_context",
+      "css.properties.row-gap.grid_context",
+      "css.types.flex"
+    ],
+    "description": "CSS Grid is a two-dimensional layout system, which lays content out in rows and columns.",
+    "description_html": "CSS Grid is a two-dimensional layout system, which lays content out in rows and columns.",
+    "name": "Grid",
+    "spec": "https://drafts.csswg.org/css-grid-3/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-01-28",
+      "baseline_low_date": "2020-07-28",
+      "support": {
+        "chrome": "66",
+        "chrome_android": "66",
+        "edge": "79",
+        "firefox": "76",
+        "firefox_android": "79",
+        "safari": "12.1",
+        "safari_ios": "12.2"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/1693"
+  },
+  {
+    "compat_features": [
+      "http.methods.GET"
+    ],
+    "description": "HTTP/1.1 is a network protocol used by browsers and servers. It has been superseded by HTTP/2 and HTTP/3.",
+    "description_html": "HTTP/1.1 is a network protocol used by browsers and servers. It has been superseded by HTTP/2 and HTTP/3.",
+    "name": "HTTP/1.1",
+    "spec": "https://httpwg.org/specs/rfc9112.html",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "1",
+        "firefox_android": "4",
+        "safari": "1",
+        "safari_ios": "1"
+      }
+    }
+  },
+  {
+    "caniuse": "http2",
+    "description": "The HTTP/2 protocol is a major revision of the HTTP network protocol, providing improved performance and efficiency by using a single TCP connection to send multiple streams of data at once.",
+    "description_html": "The HTTP/2 protocol is a major revision of the HTTP network protocol, providing improved performance and efficiency by using a single TCP connection to send multiple streams of data at once.",
+    "name": "HTTP/2",
+    "spec": "https://httpwg.org/specs/rfc9113.html",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-03-30",
+      "baseline_low_date": "2015-09-30",
+      "support": {
+        "chrome": "41",
+        "chrome_android": "41",
+        "edge": "12",
+        "firefox": "36",
+        "firefox_android": "36",
+        "safari": "9",
+        "safari_ios": "9"
+      }
+    }
+  },
+  {
+    "caniuse": "css-indeterminate-pseudo",
+    "compat_features": [
+      "css.selectors.indeterminate",
+      "css.selectors.indeterminate.checkbox",
+      "css.selectors.indeterminate.progress",
+      "css.selectors.indeterminate.radio"
+    ],
+    "description": "The :indeterminate CSS pseudo-class selects any form element whose state is indeterminate, such as checkboxes that have been set to an indeterminate state with JavaScript, or radio buttons which are members of a group in which all radio buttons are unchecked.",
+    "description_html": "The <code>:indeterminate</code> CSS pseudo-class selects any form element whose state is indeterminate, such as checkboxes that have been set to an indeterminate state with JavaScript, or radio buttons which are members of a group in which all radio buttons are unchecked.",
+    "name": ":indeterminate",
+    "spec": [
+      "https://drafts.csswg.org/selectors-4/#indeterminate",
+      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-indeterminate"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "39",
+        "chrome_android": "39",
+        "edge": "79",
+        "firefox": "51",
+        "firefox_android": "51",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "caniuse": "intersectionobserver",
+    "compat_features": [
+      "api.IntersectionObserver",
+      "api.IntersectionObserver.IntersectionObserver",
+      "api.IntersectionObserver.disconnect",
+      "api.IntersectionObserver.observe",
+      "api.IntersectionObserver.root",
+      "api.IntersectionObserver.rootMargin",
+      "api.IntersectionObserver.takeRecords",
+      "api.IntersectionObserver.thresholds",
+      "api.IntersectionObserver.unobserve",
+      "api.IntersectionObserverEntry",
+      "api.IntersectionObserverEntry.boundingClientRect",
+      "api.IntersectionObserverEntry.intersectionRatio",
+      "api.IntersectionObserverEntry.intersectionRect",
+      "api.IntersectionObserverEntry.isIntersecting",
+      "api.IntersectionObserverEntry.rootBounds",
+      "api.IntersectionObserverEntry.target",
+      "api.IntersectionObserverEntry.time"
+    ],
+    "description": "The Intersection Observer API asynchronously observes changes in the intersection of a target element with an ancestor element or with a top-level document's viewport.",
+    "description_html": "The Intersection Observer API asynchronously observes changes in the intersection of a target element with an ancestor element or with a top-level document's viewport.",
+    "name": "Intersection observer",
+    "spec": "https://w3c.github.io/IntersectionObserver/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2021-09-25",
+      "baseline_low_date": "2019-03-25",
+      "support": {
+        "chrome": "58",
+        "chrome_android": "58",
+        "edge": "16",
+        "firefox": "55",
+        "firefox_android": "55",
+        "safari": "12.1",
+        "safari_ios": "12.2"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/1368"
+  },
+  {
+    "caniuse": "css-matches-pseudo",
+    "compat_features": [
+      "css.selectors.is",
+      "css.selectors.is.forgiving_selector_list"
+    ],
+    "description": "The :is() CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list.",
+    "description_html": "The <code>:is()</code> CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list.",
+    "name": ":is()",
+    "spec": "https://drafts.csswg.org/selectors-4/#matches",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-07-21",
+      "baseline_low_date": "2021-01-21",
+      "support": {
+        "chrome": "88",
+        "chrome_android": "88",
+        "edge": "88",
+        "firefox": "82",
+        "firefox_android": "82",
+        "safari": "14",
+        "safari_ios": "14"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2322"
+  },
+  {
+    "caniuse": "es6-module",
+    "compat_features": [
+      "html.elements.script.nomodule",
+      "html.elements.script.type.module",
+      "javascript.statements.export",
+      "javascript.statements.export.default",
+      "javascript.statements.import"
+    ],
+    "description": "JavaScript modules allow code to be organized into reusable units. Modules use import to load other modules and export to declare what is available to import from other modules. In HTML, modules are loaded with <script type=\"module\">.",
+    "description_html": "JavaScript modules allow code to be organized into reusable units. Modules use <code>import</code> to load other modules and <code>export</code> to declare what is available to import from other modules. In HTML, modules are loaded with <code>&#x3C;script type=\"module\"></code>.",
+    "name": "JavaScript modules",
+    "spec": [
+      "https://html.spec.whatwg.org/multipage/webappapis.html#javascript-module-script",
+      "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-modules"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2020-11-09",
+      "baseline_low_date": "2018-05-09",
+      "support": {
+        "chrome": "61",
+        "chrome_android": "61",
+        "edge": "16",
+        "firefox": "60",
+        "firefox_android": "60",
+        "safari": "11",
+        "safari_ios": "11"
+      }
+    },
+    "usage_stats": [
+      "https://chromestatus.com/metrics/feature/timeline/popularity/2062",
+      "https://chromestatus.com/metrics/feature/timeline/popularity/2615"
+    ]
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Map",
+      "javascript.builtins.Map.Map",
+      "javascript.builtins.Map.Map.iterable_allowed",
+      "javascript.builtins.Map.Map.null_allowed",
+      "javascript.builtins.Map.clear",
+      "javascript.builtins.Map.delete",
+      "javascript.builtins.Map.entries",
+      "javascript.builtins.Map.forEach",
+      "javascript.builtins.Map.get",
+      "javascript.builtins.Map.has",
+      "javascript.builtins.Map.key_equality_for_zeros",
+      "javascript.builtins.Map.keys",
+      "javascript.builtins.Map.set",
+      "javascript.builtins.Map.size",
+      "javascript.builtins.Map.values",
+      "javascript.builtins.Map.@@iterator",
+      "javascript.builtins.Map.@@species"
+    ],
+    "description": "Map objects hold key-value pairs and remember the original insertion order of the keys.",
+    "description_html": "Map objects hold key-value pairs and remember the original insertion order of the keys.",
+    "name": "Map (initial support)",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map-objects",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map-constructor",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.clear",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.delete",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.entries",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.foreach",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.get",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.has",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.keys",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.set",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-map.prototype.size",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype.values",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-map.prototype-@@iterator",
+      "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-get-map-@@species"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "38",
+        "chrome_android": "38",
+        "edge": "12",
+        "firefox": "13",
+        "firefox_android": "14",
+        "safari": "8",
+        "safari_ios": "8"
+      }
+    }
+  },
+  {
+    "caniuse": "stream",
+    "compat_features": [
+      "api.MediaDeviceInfo",
+      "api.MediaDeviceInfo.deviceId",
+      "api.MediaDeviceInfo.groupId",
+      "api.MediaDeviceInfo.kind",
+      "api.MediaDeviceInfo.label",
+      "api.MediaDevices",
+      "api.MediaDevices.enumerateDevices",
+      "api.MediaDevices.getUserMedia",
+      "api.MediaStream.getAudioTracks",
+      "api.MediaStream.getTracks",
+      "api.MediaStream.getVideoTracks",
+      "api.MediaStreamTrack",
+      "api.MediaStreamTrack.enabled",
+      "api.MediaStreamTrack.id",
+      "api.MediaStreamTrack.kind",
+      "api.MediaStreamTrack.label",
+      "api.MediaStreamTrack.stop"
+    ],
+    "description": "The navigator.mediaDevices.getUserMedia() API requests access to devices that produce audio or video streams, such as microphones or video cameras.",
+    "description_html": "The <code>navigator.mediaDevices.getUserMedia()</code> API requests access to devices that produce audio or video streams, such as microphones or video cameras.",
+    "name": "Media capture",
+    "spec": "https://w3c.github.io/mediacapture-main/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2020-03-19",
+      "baseline_low_date": "2017-09-19",
+      "support": {
+        "chrome": "53",
+        "chrome_android": "53",
+        "edge": "12",
+        "firefox": "39",
+        "firefox_android": "39",
+        "safari": "11",
+        "safari_ios": "11"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.types.clamp",
+      "css.types.max",
+      "css.types.min"
+    ],
+    "description": "The min() and max() CSS functions return the minimum or maximum of the arguments, while clamp() clamps a value to a given range.",
+    "description_html": "The <code>min()</code> and <code>max()</code> CSS functions return the minimum or maximum of the arguments, while <code>clamp()</code> clamps a value to a given range.",
+    "name": "min(), max(), and clamp()",
+    "spec": "https://drafts.csswg.org/css-values-4/#comp-func",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-01-28",
+      "baseline_low_date": "2020-07-28",
+      "support": {
+        "chrome": "79",
+        "chrome_android": "79",
+        "edge": "79",
+        "firefox": "75",
+        "firefox_android": "79",
+        "safari": "13.1",
+        "safari_ios": "13.4"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.selectors.nth-child",
+      "css.selectors.nth-last-child"
+    ],
+    "description": "The :nth-child() and :nth-last-child() CSS functional pseudo-classes match elements by the relative position of elements (first, second, third, fourth, and so on), counted from the first or last sibling.",
+    "description_html": "The <code>:nth-child()</code> and <code>:nth-last-child()</code> CSS functional pseudo-classes match elements by the relative position of elements (first, second, third, fourth, and so on), counted from the first or last sibling.",
+    "name": ":nth-child() (initial support)",
+    "spec": [
+      "https://drafts.csswg.org/selectors-3/#nth-child-pseudo",
+      "https://drafts.csswg.org/selectors-3/#nth-last-child-pseudo"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "4",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "3.5",
+        "firefox_android": "4",
+        "safari": "3.1",
+        "safari_ios": "2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "css.at-rules.media.prefers-color-scheme"
+    ],
+    "description": "The prefers-color-scheme CSS media query detects the requested color scheme, light or dark.",
+    "description_html": "The <code>prefers-color-scheme</code> CSS media query detects the requested color scheme, light or dark.",
+    "name": "prefers-color-scheme",
+    "spec": "https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "76",
+        "chrome_android": "76",
+        "edge": "79",
+        "firefox": "67",
+        "firefox_android": "67",
+        "safari": "12.1",
+        "safari_ios": "13"
+      }
+    }
+  },
+  {
+    "caniuse": "beforeafterprint",
+    "compat_features": [
+      "api.Window.afterprint_event",
+      "api.Window.beforeprint_event"
+    ],
+    "description": "An alternative to @media print queries, the beforeprint and afterprint events allow you to change the page for printing and and restore the page after printing.",
+    "description_html": "An alternative to <code>@media print</code> queries, the <code>beforeprint</code> and <code>afterprint</code> events allow you to change the page for printing and and restore the page after printing.",
+    "name": "Print events",
+    "spec": [
+      "https://html.spec.whatwg.org/multipage/indices.html#event-afterprint",
+      "https://html.spec.whatwg.org/multipage/indices.html#event-beforeprint"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-03-19",
+      "baseline_low_date": "2019-09-19",
+      "support": {
+        "chrome": "63",
+        "chrome_android": "63",
+        "edge": "12",
+        "firefox": "6",
+        "firefox_android": "6",
+        "safari": "13",
+        "safari_ios": "13"
+      }
+    }
+  },
+  {
+    "alias": "promises",
+    "caniuse": "promises",
+    "compat_features": [
+      "javascript.builtins.Promise",
+      "javascript.builtins.Promise.@@species",
+      "javascript.builtins.Promise.Promise",
+      "javascript.builtins.Promise.all",
+      "javascript.builtins.Promise.catch",
+      "javascript.builtins.Promise.race",
+      "javascript.builtins.Promise.reject",
+      "javascript.builtins.Promise.resolve",
+      "javascript.builtins.Promise.then"
+    ],
+    "description": "A promise represents an asynchronous operation which eventually succeeds or fails.",
+    "description_html": "A promise represents an asynchronous operation which eventually succeeds or fails.",
+    "name": "Promise (initial support)",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-objects",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-get-promise-@@species",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise-constructor",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.all",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.catch",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.race",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.reject",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.resolve",
+      "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.then"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "32",
+        "chrome_android": "32",
+        "edge": "12",
+        "firefox": "29",
+        "firefox_android": "29",
+        "safari": "8",
+        "safari_ios": "8"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Promise.allSettled"
+    ],
+    "description": "The Promise.allSettled() static method waits for an array of promises to settle (resolve or reject).",
+    "description_html": "The <code>Promise.allSettled()</code> static method waits for an array of promises to settle (resolve or reject).",
+    "name": "Promise.allSettled()",
+    "spec": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.allsettled",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-01-28",
+      "baseline_low_date": "2020-07-28",
+      "support": {
+        "chrome": "76",
+        "chrome_android": "76",
+        "edge": "79",
+        "firefox": "71",
+        "firefox_android": "79",
+        "safari": "13",
+        "safari_ios": "13"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Promise.any"
+    ],
+    "description": "The Promise.any() static method returns a promise that fulfills as soon as the first of an iterable of promises fulfills, with that promise's value. Otherwise, it rejects with an AggregateError when all of the promises have rejected.",
+    "description_html": "The <code>Promise.any()</code> static method returns a promise that fulfills as soon as the first of an iterable of promises fulfills, with that promise's value. Otherwise, it rejects with an <code>AggregateError</code> when all of the promises have rejected.",
+    "name": "Promise.any()",
+    "spec": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.any",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-03-16",
+      "baseline_low_date": "2020-09-16",
+      "support": {
+        "chrome": "85",
+        "chrome_android": "85",
+        "edge": "85",
+        "firefox": "79",
+        "firefox_android": "79",
+        "safari": "14",
+        "safari_ios": "14"
+      }
+    }
+  },
+  {
+    "caniuse": "promise-finally",
+    "compat_features": [
+      "javascript.builtins.Promise.finally"
+    ],
+    "description": "The promise finally() method executes a function when the promise settles (resolves or rejects).",
+    "description_html": "The promise <code>finally()</code> method executes a function when the promise settles (resolves or rejects).",
+    "name": "Promise finally()",
+    "spec": "https://tc39.es/ecma262/multipage/control-abstraction-objects.html#sec-promise.prototype.finally",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2021-04-02",
+      "baseline_low_date": "2018-10-02",
+      "support": {
+        "chrome": "63",
+        "chrome_android": "63",
+        "edge": "18",
+        "firefox": "58",
+        "firefox_android": "58",
+        "safari": "11.1",
+        "safari_ios": "11.3"
+      }
+    }
+  },
+  {
+    "alias": "read-write-pseudo-classes",
+    "caniuse": "css-read-only-write",
+    "compat_features": [
+      "css.selectors.read-only",
+      "css.selectors.read-write"
+    ],
+    "description": "The :read-only and :read-write CSS pseudo-classes match elements that are read-only or read-write, respectively. For example, :read-only matches <input> and <textarea> elements with the readonly attribute.",
+    "description_html": "The <code>:read-only</code> and <code>:read-write</code> CSS pseudo-classes match elements that are read-only or read-write, respectively. For example, <code>:read-only</code> matches <code>&#x3C;input></code> and <code>&#x3C;textarea></code> elements with the <code>readonly</code> attribute.",
+    "name": ":read-only and :read-write",
+    "spec": [
+      "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-read-only",
+      "https://drafts.csswg.org/selectors-4/#rw-pseudos"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-01-28",
+      "baseline_low_date": "2020-07-28",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "13",
+        "firefox": "78",
+        "firefox_android": "79",
+        "safari": "4",
+        "safari_ios": "3.2"
+      }
+    }
+  },
+  {
+    "caniuse": "requestanimationframe",
+    "compat_features": [
+      "api.Window.cancelAnimationFrame",
+      "api.Window.requestAnimationFrame"
+    ],
+    "description": "The requestAnimationFrame() method schedules a function that runs before the next repaint. You can use it to animate content with JavaScript.",
+    "description_html": "The <code>requestAnimationFrame()</code> method schedules a function that runs before the next repaint. You can use it to animate content with JavaScript.",
+    "name": "requestAnimationFrame()",
+    "spec": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "24",
+        "chrome_android": "25",
+        "edge": "12",
+        "firefox": "23",
+        "firefox_android": "23",
+        "safari": "7",
+        "safari_ios": "7"
+      }
+    }
+  },
+  {
+    "caniuse": "resource-timing",
+    "compat_features": [
+      "api.PerformanceResourceTiming",
+      "api.PerformanceResourceTiming.connectEnd",
+      "api.PerformanceResourceTiming.connectStart",
+      "api.PerformanceResourceTiming.domainLookupEnd",
+      "api.PerformanceResourceTiming.domainLookupStart",
+      "api.PerformanceResourceTiming.fetchStart",
+      "api.PerformanceResourceTiming.initiatorType",
+      "api.PerformanceResourceTiming.redirectEnd",
+      "api.PerformanceResourceTiming.redirectStart",
+      "api.PerformanceResourceTiming.requestStart",
+      "api.PerformanceResourceTiming.responseEnd",
+      "api.PerformanceResourceTiming.responseStart"
+    ],
+    "description": "PerformanceResourceTiming entries report when network events happen while loading a resource, such as when connections start and end. You can use this information to measure loading times.",
+    "description_html": "<code>PerformanceResourceTiming</code> entries report when network events happen while loading a resource, such as when connections start and end. You can use this information to measure loading times.",
+    "name": "Resource timing (initial support)",
+    "spec": "https://w3c.github.io/resource-timing/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2020-03-19",
+      "baseline_low_date": "2017-09-19",
+      "support": {
+        "chrome": "43",
+        "chrome_android": "43",
+        "edge": "12",
+        "firefox": "35",
+        "firefox_android": "35",
+        "safari": "11",
+        "safari_ios": "11"
+      }
+    }
+  },
+  {
+    "alias": "scrollintoview",
+    "caniuse": "scrollintoview",
+    "compat_features": [
+      "api.Element.scrollIntoView",
+      "api.Element.scrollIntoView.options_parameter"
+    ],
+    "description": "The scrollIntoView() method scrolls an element's ancestor containers such that the element is visible to the user.",
+    "description_html": "The <code>scrollIntoView()</code> method scrolls an element's ancestor containers such that the element is visible to the user.",
+    "name": "scrollIntoView()",
+    "spec": "https://drafts.csswg.org/cssom-view-1/#dom-element-scrollintoview",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-03-16",
+      "baseline_low_date": "2020-09-16",
+      "support": {
+        "chrome": "61",
+        "chrome_android": "61",
+        "edge": "79",
+        "firefox": "36",
+        "firefox_android": "36",
+        "safari": "14",
+        "safari_ios": "14"
+      }
+    }
+  },
+  {
+    "caniuse": "css-snappoints",
+    "compat_features": [
+      "css.properties.scroll-margin",
+      "css.properties.scroll-margin-block",
+      "css.properties.scroll-margin-block-end",
+      "css.properties.scroll-margin-block-start",
+      "css.properties.scroll-margin-bottom",
+      "css.properties.scroll-margin-inline",
+      "css.properties.scroll-margin-inline-end",
+      "css.properties.scroll-margin-inline-start",
+      "css.properties.scroll-margin-left",
+      "css.properties.scroll-margin-right",
+      "css.properties.scroll-margin-top",
+      "css.properties.scroll-padding",
+      "css.properties.scroll-padding-block",
+      "css.properties.scroll-padding-block-end",
+      "css.properties.scroll-padding-block-start",
+      "css.properties.scroll-padding-bottom",
+      "css.properties.scroll-padding-inline",
+      "css.properties.scroll-padding-inline-end",
+      "css.properties.scroll-padding-inline-start",
+      "css.properties.scroll-padding-left",
+      "css.properties.scroll-padding-right",
+      "css.properties.scroll-padding-top",
+      "css.properties.scroll-snap-align",
+      "css.properties.scroll-snap-stop",
+      "css.properties.scroll-snap-type"
+    ],
+    "description": "CSS scroll snap controls the panning and scrolling behavior within a scroll container.",
+    "description_html": "CSS scroll snap controls the panning and scrolling behavior within a scroll container.",
+    "name": "Scroll snap",
+    "spec": "https://drafts.csswg.org/css-scroll-snap-1/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-01-09",
+      "baseline_low_date": "2019-07-09",
+      "support": {
+        "chrome": "69",
+        "chrome_android": "69",
+        "edge": "79",
+        "firefox": "68",
+        "firefox_android": "68",
+        "safari": "11",
+        "safari_ios": "11"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/499"
+  },
+  {
+    "caniuse": "input-search",
+    "compat_features": [
+      "html.elements.input.type_search"
+    ],
+    "description": "The <input> HTML element with the type=\"search\" attribute represents a text field for search queries, which might be styled differently by the browser.",
+    "description_html": "The <code>&#x3C;input></code> HTML element with the <code>type=\"search\"</code> attribute represents a text field for search queries, which might be styled differently by the browser.",
+    "name": "<input type=\"search\">",
+    "spec": "https://html.spec.whatwg.org/multipage/input.html#text-(type=text)-state-and-search-state-(type=search)",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "5",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "4",
+        "firefox_android": "4",
+        "safari": "5",
+        "safari_ios": "4.2"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Set",
+      "javascript.builtins.Set.Set",
+      "javascript.builtins.Set.Set.iterable_allowed",
+      "javascript.builtins.Set.Set.null_allowed",
+      "javascript.builtins.Set.add",
+      "javascript.builtins.Set.clear",
+      "javascript.builtins.Set.delete",
+      "javascript.builtins.Set.entries",
+      "javascript.builtins.Set.forEach",
+      "javascript.builtins.Set.has",
+      "javascript.builtins.Set.key_equality_for_zeros",
+      "javascript.builtins.Set.keys",
+      "javascript.builtins.Set.size",
+      "javascript.builtins.Set.values",
+      "javascript.builtins.Set.@@iterator",
+      "javascript.builtins.Set.@@species"
+    ],
+    "description": "Set objects store unique values of any type.",
+    "description_html": "Set objects store unique values of any type.",
+    "name": "Set (initial support)",
+    "spec": "https://tc39.es/ecma262/multipage/keyed-collections.html#sec-set-objects",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "38",
+        "chrome_android": "38",
+        "edge": "12",
+        "firefox": "13",
+        "firefox_android": "13",
+        "safari": "8",
+        "safari_ios": "8"
+      }
+    }
+  },
+  {
+    "caniuse": "shadowdomv1",
+    "compat_features": [
+      "api.Element.attachShadow",
+      "api.Element.shadowRoot",
+      "api.Event.composed",
+      "api.Event.composedPath",
+      "api.Node.getRootNode",
+      "api.Node.isConnected",
+      "api.ShadowRoot",
+      "api.ShadowRoot.host",
+      "api.ShadowRoot.mode"
+    ],
+    "description": "Shadow DOM allows you to attach encapsulated \"shadow\" DOM trees to elements. A shadow DOM tree is a separate component, isolated from the scripts and styles in other parts of the document. This is a part of Web Components.",
+    "description_html": "Shadow DOM allows you to attach encapsulated \"shadow\" DOM trees to elements. A shadow DOM tree is a separate component, isolated from the scripts and styles in other parts of the document. This is a part of Web Components.",
+    "name": "Shadow DOM",
+    "spec": "https://dom.spec.whatwg.org/#shadow-trees",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "54",
+        "chrome_android": "54",
+        "edge": "79",
+        "firefox": "63",
+        "firefox_android": "63",
+        "safari": "10.1",
+        "safari_ios": "10.3"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.Element.assignedSlot",
+      "api.Element.slot",
+      "api.HTMLSlotElement",
+      "api.HTMLSlotElement.assignedNodes",
+      "api.HTMLSlotElement.name",
+      "api.Text.assignedSlot",
+      "css.selectors.slotted",
+      "html.elements.slot",
+      "html.elements.slot.name",
+      "html.global_attributes.slot"
+    ],
+    "description": "The <slot> HTML element is a placeholder inside a web component where consumers of the component can insert their own markup.",
+    "description_html": "The <code>&#x3C;slot></code> HTML element is a placeholder inside a web component where consumers of the component can insert their own markup.",
+    "name": "<slot>",
+    "spec": "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "53",
+        "chrome_android": "53",
+        "edge": "79",
+        "firefox": "63",
+        "firefox_android": "63",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/1898"
+  },
+  {
+    "caniuse": "speech-synthesis",
+    "compat_features": [
+      "api.SpeechSynthesis",
+      "api.SpeechSynthesis.cancel",
+      "api.SpeechSynthesis.getVoices",
+      "api.SpeechSynthesis.pause",
+      "api.SpeechSynthesis.paused",
+      "api.SpeechSynthesis.pending",
+      "api.SpeechSynthesis.resume",
+      "api.SpeechSynthesis.speak",
+      "api.SpeechSynthesis.speaking",
+      "api.SpeechSynthesisEvent",
+      "api.SpeechSynthesisEvent.charIndex",
+      "api.SpeechSynthesisEvent.elapsedTime",
+      "api.SpeechSynthesisEvent.name",
+      "api.SpeechSynthesisEvent.utterance",
+      "api.SpeechSynthesisUtterance",
+      "api.SpeechSynthesisUtterance.SpeechSynthesisUtterance",
+      "api.SpeechSynthesisUtterance.end_event",
+      "api.SpeechSynthesisUtterance.error_event",
+      "api.SpeechSynthesisUtterance.lang",
+      "api.SpeechSynthesisUtterance.mark_event",
+      "api.SpeechSynthesisUtterance.pause_event",
+      "api.SpeechSynthesisUtterance.pitch",
+      "api.SpeechSynthesisUtterance.rate",
+      "api.SpeechSynthesisUtterance.resume_event",
+      "api.SpeechSynthesisUtterance.start_event",
+      "api.SpeechSynthesisUtterance.text",
+      "api.SpeechSynthesisUtterance.voice",
+      "api.SpeechSynthesisUtterance.volume",
+      "api.SpeechSynthesisVoice",
+      "api.SpeechSynthesisVoice.default",
+      "api.SpeechSynthesisVoice.lang",
+      "api.SpeechSynthesisVoice.localService",
+      "api.SpeechSynthesisVoice.name",
+      "api.SpeechSynthesisVoice.voiceURI",
+      "api.Window.speechSynthesis"
+    ],
+    "description": "The SpeechSynthesis API converts text into audio using a synthetic voice.",
+    "description_html": "The <code>SpeechSynthesis</code> API converts text into audio using a synthetic voice.",
+    "name": "Speech synthesis",
+    "spec": "https://wicg.github.io/speech-api/#tts-section",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2021-03-05",
+      "baseline_low_date": "2018-09-05",
+      "support": {
+        "chrome": "33",
+        "chrome_android": "33",
+        "edge": "14",
+        "firefox": "49",
+        "firefox_android": "62",
+        "safari": "7",
+        "safari_ios": "7"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2483"
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.Array.sort.stable_sorting"
+    ],
+    "description": "Stable array sort() function",
+    "description_html": "Stable array sort() function",
+    "name": "Stable array sort",
+    "spec": "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.sort",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "70",
+        "chrome_android": "70",
+        "edge": "79",
+        "firefox": "3",
+        "firefox_android": "4",
+        "safari": "10.1",
+        "safari_ios": "10.3"
+      }
+    }
+  },
+  {
+    "caniuse": "css-sticky",
+    "compat_features": [
+      "css.properties.position.position_sticky_table_elements",
+      "css.properties.position.sticky"
+    ],
+    "description": "The position: sticky CSS declaration positions an element in the normal flow until it crosses a specified threshold, at which points it becomes fixed (stuck) at that position.",
+    "description_html": "The <code>position: sticky</code> CSS declaration positions an element in the normal flow until it crosses a specified threshold, at which points it becomes fixed (stuck) at that position.",
+    "name": "Sticky positioning",
+    "spec": "https://drafts.csswg.org/css-position-3/#stickypos-insets",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-03-19",
+      "baseline_low_date": "2019-09-19",
+      "support": {
+        "chrome": "56",
+        "chrome_android": "56",
+        "edge": "16",
+        "firefox": "59",
+        "firefox_android": "59",
+        "safari": "13",
+        "safari_ios": "13"
+      }
+    }
+  },
+  {
+    "caniuse": "tabindex-attr",
+    "compat_features": [
+      "api.HTMLElement.tabIndex",
+      "html.global_attributes.tabindex"
+    ],
+    "description": "The tabindex HTML attribute make an element focusable, and defines the element's relative ordering for sequential focus navigation.",
+    "description_html": "The <code>tabindex</code> HTML attribute make an element focusable, and defines the element's relative ordering for sequential focus navigation.",
+    "name": "tabindex",
+    "spec": "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2021-04-02",
+      "baseline_low_date": "2018-10-02",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "18",
+        "firefox": "1.5",
+        "firefox_android": "4",
+        "safari": "4",
+        "safari_ios": "3.2"
+      }
+    }
+  },
+  {
+    "caniuse": "template",
+    "compat_features": [
+      "api.HTMLTemplateElement",
+      "api.HTMLTemplateElement.content",
+      "html.elements.template"
+    ],
+    "description": "The <template> HTML element holds HTML fragments which you can clone and insert into the document using JavaScript.",
+    "description_html": "The <code>&#x3C;template></code> HTML element holds HTML fragments which you can clone and insert into the document using JavaScript.",
+    "name": "<template>",
+    "spec": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-05-12",
+      "baseline_low_date": "2015-11-12",
+      "support": {
+        "chrome": "26",
+        "chrome_android": "26",
+        "edge": "13",
+        "firefox": "22",
+        "firefox_android": "22",
+        "safari": "8",
+        "safari_ios": "8"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2769"
+  },
+  {
+    "caniuse": "css-text-indent",
+    "compat_features": [
+      "css.properties.text-indent"
+    ],
+    "description": "The text-indent CSS property sets the size of the empty space (indentation) at the beginning of lines in a text.",
+    "description_html": "The <code>text-indent</code> CSS property sets the size of the empty space (indentation) at the beginning of lines in a text.",
+    "name": "text-indent",
+    "spec": "https://drafts.csswg.org/css-text-3/#text-indent-property",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "1",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "1",
+        "firefox_android": "4",
+        "safari": "1",
+        "safari_ios": "1"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/130"
+  },
+  {
+    "caniuse": "transforms2d",
+    "compat_features": [
+      "css.properties.transform",
+      "css.properties.transform-origin",
+      "css.types.transform-function",
+      "css.types.transform-function.matrix",
+      "css.types.transform-function.rotate",
+      "css.types.transform-function.scale",
+      "css.types.transform-function.scaleX",
+      "css.types.transform-function.scaleY",
+      "css.types.transform-function.skew",
+      "css.types.transform-function.skewX",
+      "css.types.transform-function.skewY",
+      "css.types.transform-function.translate",
+      "css.types.transform-function.translateX",
+      "css.types.transform-function.translateY"
+    ],
+    "description": "The transform CSS property and its 2D transform functions allow rotating, scaling, skewing, and translating an element. Arbitrary 2D transforms are also possible using a transformation matrix.",
+    "description_html": "The <code>transform</code> CSS property and its 2D transform functions allow rotating, scaling, skewing, and translating an element. Arbitrary 2D transforms are also possible using a transformation matrix.",
+    "name": "2D transforms",
+    "spec": "https://drafts.csswg.org/css-transforms-1/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-03-30",
+      "baseline_low_date": "2015-09-30",
+      "support": {
+        "chrome": "36",
+        "chrome_android": "36",
+        "edge": "12",
+        "firefox": "16",
+        "firefox_android": "16",
+        "safari": "9",
+        "safari_ios": "9"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.TypedArray.every",
+      "javascript.builtins.TypedArray.filter",
+      "javascript.builtins.TypedArray.forEach",
+      "javascript.builtins.TypedArray.indexOf",
+      "javascript.builtins.TypedArray.lastIndexOf",
+      "javascript.builtins.TypedArray.map",
+      "javascript.builtins.TypedArray.reduce",
+      "javascript.builtins.TypedArray.reduceRight",
+      "javascript.builtins.TypedArray.some"
+    ],
+    "description": "Typed array iteration methods",
+    "description_html": "Typed array iteration methods",
+    "name": "Typed array iteration methods",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.every",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.filter",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.foreach",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.indexof",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.lastindexof",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.map",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.reduce",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.reduceright",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.some"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-09-21",
+      "baseline_low_date": "2016-03-21",
+      "support": {
+        "chrome": "45",
+        "chrome_android": "45",
+        "edge": "12",
+        "firefox": "37",
+        "firefox_android": "37",
+        "safari": "9.1",
+        "safari_ios": "9.3"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "javascript.builtins.TypedArray.@@iterator",
+      "javascript.builtins.TypedArray.entries",
+      "javascript.builtins.TypedArray.keys",
+      "javascript.builtins.TypedArray.values"
+    ],
+    "description": "Typed arrays are iterable with the for…of statement and enumerable with the methods entries(), keys(), and values().",
+    "description_html": "Typed arrays are iterable with the <code>for…of</code> statement and enumerable with the methods <code>entries()</code>, <code>keys()</code>, and <code>values()</code>.",
+    "name": "Typed array iterators",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype-@@iterator",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.entries",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.keys",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.values"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2019-03-20",
+      "baseline_low_date": "2016-09-20",
+      "support": {
+        "chrome": "38",
+        "chrome_android": "38",
+        "edge": "12",
+        "firefox": "36",
+        "firefox_android": "36",
+        "safari": "10",
+        "safari_ios": "10"
+      }
+    }
+  },
+  {
+    "caniuse": "typedarrays",
+    "compat_features": [
+      "javascript.builtins.Float32Array",
+      "javascript.builtins.Float32Array.Float32Array",
+      "javascript.builtins.Float32Array.Float32Array.constructor_without_parameters",
+      "javascript.builtins.Float32Array.Float32Array.iterable_allowed",
+      "javascript.builtins.Float64Array",
+      "javascript.builtins.Float64Array.Float64Array",
+      "javascript.builtins.Float64Array.Float64Array.constructor_without_parameters",
+      "javascript.builtins.Float64Array.Float64Array.iterable_allowed",
+      "javascript.builtins.Int16Array",
+      "javascript.builtins.Int16Array.Int16Array",
+      "javascript.builtins.Int16Array.Int16Array.constructor_without_parameters",
+      "javascript.builtins.Int32Array",
+      "javascript.builtins.Int32Array.Int32Array",
+      "javascript.builtins.Int32Array.Int32Array.constructor_without_parameters",
+      "javascript.builtins.Int32Array.Int32Array.iterable_allowed",
+      "javascript.builtins.Int8Array",
+      "javascript.builtins.Int8Array.Int8Array",
+      "javascript.builtins.Int8Array.Int8Array.constructor_without_parameters",
+      "javascript.builtins.Int8Array.Int8Array.iterable_allowed",
+      "javascript.builtins.TypedArray",
+      "javascript.builtins.TypedArray.BYTES_PER_ELEMENT",
+      "javascript.builtins.TypedArray.buffer",
+      "javascript.builtins.TypedArray.byteLength",
+      "javascript.builtins.TypedArray.byteOffset",
+      "javascript.builtins.TypedArray.constructor_without_parameters",
+      "javascript.builtins.TypedArray.join",
+      "javascript.builtins.TypedArray.length",
+      "javascript.builtins.TypedArray.name",
+      "javascript.builtins.TypedArray.named_properties",
+      "javascript.builtins.TypedArray.reverse",
+      "javascript.builtins.TypedArray.set",
+      "javascript.builtins.TypedArray.slice",
+      "javascript.builtins.TypedArray.sort",
+      "javascript.builtins.TypedArray.subarray",
+      "javascript.builtins.TypedArray.toLocaleString",
+      "javascript.builtins.TypedArray.toString",
+      "javascript.builtins.Uint16Array",
+      "javascript.builtins.Uint16Array.Uint16Array",
+      "javascript.builtins.Uint16Array.Uint16Array.constructor_without_parameters",
+      "javascript.builtins.Uint16Array.Uint16Array.iterable_allowed",
+      "javascript.builtins.Uint32Array",
+      "javascript.builtins.Uint32Array.Uint32Array",
+      "javascript.builtins.Uint32Array.Uint32Array.constructor_without_parameters",
+      "javascript.builtins.Uint32Array.Uint32Array.iterable_allowed",
+      "javascript.builtins.Uint8Array",
+      "javascript.builtins.Uint8Array.Uint8Array",
+      "javascript.builtins.Uint8Array.Uint8Array.constructor_without_parameters",
+      "javascript.builtins.Uint8Array.Uint8Array.iterable_allowed",
+      "javascript.builtins.Uint8ClampedArray",
+      "javascript.builtins.Uint8ClampedArray.Uint8ClampedArray",
+      "javascript.builtins.Uint8ClampedArray.Uint8ClampedArray.iterable_allowed"
+    ],
+    "description": "Typed arrays are ordered lists of JavaScript values, where all values are of the same numerical type, such as 8-bit integers or 32-bit floating point numbers.",
+    "description_html": "Typed arrays are ordered lists of JavaScript values, where all values are of the same numerical type, such as 8-bit integers or 32-bit floating point numbers.",
+    "name": "Typed arrays (initial support)",
+    "spec": [
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#table-49",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-constructors",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray-objects",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-typedarray.bytes_per_element",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%25typedarray%25.prototype.buffer",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%25typedarray%25.prototype.bytelength",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%25typedarray%25.prototype.byteoffset",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.join",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-get-%25typedarray%25.prototype.length",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-properties-of-the-typedarray-constructors",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.reverse",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.set",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.slice",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.sort",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.subarray",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.tolocalestring",
+      "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-%25typedarray%25.prototype.tostring"
+    ],
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "7",
+        "chrome_android": "18",
+        "edge": "12",
+        "firefox": "4",
+        "firefox_android": "4",
+        "safari": "5.1",
+        "safari_ios": "4.2"
+      }
+    }
+  },
+  {
+    "alias": "viewport-relative-units",
+    "caniuse": "viewport-units",
+    "compat_features": [
+      "css.types.length.vh",
+      "css.types.length.vmax",
+      "css.types.length.vmin",
+      "css.types.length.vw"
+    ],
+    "description": "The vw, vh, vmin, and vmax CSS viewport units are relative to the size of the viewport, and are used to size elements in relation to the viewport's dimensions.",
+    "description_html": "The <code>vw</code>, <code>vh</code>, <code>vmin</code>, and <code>vmax</code> CSS viewport units are relative to the size of the viewport, and are used to size elements in relation to the viewport's dimensions.",
+    "name": "Viewport units",
+    "spec": "https://drafts.csswg.org/css-values-4/#viewport-relative-lengths",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2020-04-17",
+      "baseline_low_date": "2017-10-17",
+      "support": {
+        "chrome": "26",
+        "chrome_android": "26",
+        "edge": "16",
+        "firefox": "19",
+        "firefox_android": "19",
+        "safari": "7",
+        "safari_ios": "7"
+      }
+    }
+  },
+  {
+    "compat_features": [
+      "api.VisualViewport",
+      "api.VisualViewport.height",
+      "api.VisualViewport.offsetLeft",
+      "api.VisualViewport.offsetTop",
+      "api.VisualViewport.pageLeft",
+      "api.VisualViewport.pageTop",
+      "api.VisualViewport.scale",
+      "api.VisualViewport.width",
+      "api.Window.visualViewport"
+    ],
+    "description": "The visualViewport API provides a way to query and modify the user-visible viewport of a web page.",
+    "description_html": "The <code>visualViewport</code> API provides a way to query and modify the user-visible viewport of a web page.",
+    "name": "Visual viewport API",
+    "spec": "https://drafts.csswg.org/cssom-view-1/#visualViewport",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2024-02-10",
+      "baseline_low_date": "2021-08-10",
+      "support": {
+        "chrome": "61",
+        "chrome_android": "61",
+        "edge": "79",
+        "firefox": "91",
+        "firefox_android": "68",
+        "safari": "13",
+        "safari_ios": "13"
+      }
+    }
+  },
+  {
+    "caniuse": "webp",
+    "description": "The WebP image format is a raster graphics file format that supports animation, alpha transparency, and lossy as well as lossless compression.",
+    "description_html": "The WebP image format is a raster graphics file format that supports animation, alpha transparency, and lossy as well as lossless compression.",
+    "name": "WebP",
+    "spec": "https://www.ietf.org/archive/id/draft-zern-webp-15.html",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-03-16",
+      "baseline_low_date": "2020-09-16",
+      "support": {
+        "chrome": "9",
+        "chrome_android": "18",
+        "edge": "18",
+        "firefox": "65",
+        "firefox_android": "65",
+        "safari": "14",
+        "safari_ios": "14"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/3797"
+  },
+  {
+    "caniuse": "rtcpeerconnection",
+    "compat_features": [
+      "api.RTCPeerConnection",
+      "api.RTCDataChannel"
+    ],
+    "description": "The WebRTC API establishes real-time communication channels directly between browsers. It is commonly used in video conferencing applications.",
+    "description_html": "The WebRTC API establishes real-time communication channels directly between browsers. It is commonly used in video conferencing applications.",
+    "name": "WebRTC",
+    "spec": "https://w3c.github.io/webrtc-pc/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "56",
+        "chrome_android": "56",
+        "edge": "79",
+        "firefox": "44",
+        "firefox_android": "44",
+        "safari": "11",
+        "safari_ios": "11"
+      }
+    }
+  },
+  {
+    "caniuse": "webvtt",
+    "compat_features": [
+      "api.VTTCue",
+      "api.VTTCue.getCueAsHTML",
+      "api.VTTCue.text"
+    ],
+    "description": "WebVTT is a captions and subtitles format. WebVTT files are loaded using the <track> element, and the VTTCue API can be used to create or update cues dynamically.",
+    "description_html": "WebVTT is a captions and subtitles format. WebVTT files are loaded using the <code>&#x3C;track></code> element, and the <code>VTTCue</code> API can be used to create or update cues dynamically.",
+    "name": "WebVTT",
+    "spec": "https://w3c.github.io/webvtt/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2018-01-29",
+      "baseline_low_date": "2015-07-29",
+      "support": {
+        "chrome": "23",
+        "chrome_android": "25",
+        "edge": "12",
+        "firefox": "31",
+        "firefox_android": "31",
+        "safari": "6",
+        "safari_ios": "8"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/409"
+  },
+  {
+    "compat_features": [
+      "css.selectors.where",
+      "css.selectors.where.forgiving_selector_list"
+    ],
+    "description": "The :where() CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list. It is functionally equivalent to the selectors in the list, but doesn't affect the CSS rule specificity.",
+    "description_html": "The <code>:where()</code> CSS functional pseudo-class takes a selector list as its argument, and matches any element that can be selected by one of the selectors in that list. It is functionally equivalent to the selectors in the list, but doesn't affect the CSS rule specificity.",
+    "name": ":where()",
+    "spec": "https://drafts.csswg.org/selectors-4/#zero-matches",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2023-07-21",
+      "baseline_low_date": "2021-01-21",
+      "support": {
+        "chrome": "88",
+        "chrome_android": "88",
+        "edge": "88",
+        "firefox": "82",
+        "firefox_android": "82",
+        "safari": "14",
+        "safari_ios": "14"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/feature/timeline/popularity/2431"
+  },
+  {
+    "caniuse": "will-change",
+    "compat_features": [
+      "css.properties.will-change",
+      "css.properties.will-change.auto",
+      "css.properties.will-change.contents",
+      "css.properties.will-change.scroll-position"
+    ],
+    "description": "The will-change CSS property gives hints to the browser about expected changes to an element's scroll position, contents, or style. These hints allow browsers to optimize for upcoming style changes.",
+    "description_html": "The <code>will-change</code> CSS property gives hints to the browser about expected changes to an element's scroll position, contents, or style. These hints allow browsers to optimize for upcoming style changes.",
+    "name": "will-change",
+    "spec": "https://drafts.csswg.org/css-will-change-1/",
+    "status": {
+      "baseline": "high",
+      "baseline_high_date": "2022-07-15",
+      "baseline_low_date": "2020-01-15",
+      "support": {
+        "chrome": "36",
+        "chrome_android": "36",
+        "edge": "79",
+        "firefox": "36",
+        "firefox_android": "36",
+        "safari": "9.1",
+        "safari_ios": "9.3"
+      }
+    },
+    "usage_stats": "https://chromestatus.com/metrics/css/timeline/popularity/445"
+  }
+]
